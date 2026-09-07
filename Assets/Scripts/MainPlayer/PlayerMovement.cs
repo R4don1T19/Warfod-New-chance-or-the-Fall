@@ -2,8 +2,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement Instance;
     private Rigidbody2D rb;
     public int speed;
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
