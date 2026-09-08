@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class CameraBehavior : MonoBehaviour
 {
     [SerializeField] private Transform PlayerTransform;
