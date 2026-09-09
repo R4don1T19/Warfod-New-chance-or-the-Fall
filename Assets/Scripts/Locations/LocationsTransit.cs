@@ -4,9 +4,10 @@ public class LocationsTransit : MonoBehaviour
 {
     private PlayerDoorDetect PDD;
     private Transform SpawnerTransform;
+    private Rigidbody2D rb;
     private string ToID;
     private string FromID;
-    private bool HasTransit = false;
+    private bool HasTransit;
     private void Start()
     {
         PDD = PlayerMovement.Instance.GetComponentInChildren<PlayerDoorDetect>();
@@ -30,6 +31,7 @@ public class LocationsTransit : MonoBehaviour
             if (Door.FromID == ToID)
             {
                 SpawnerTransform = Door.transform;
+                Debug.Log($"Find CorrectDoor! {SpawnerTransform.position}");
                 break;
             }
         }
@@ -43,7 +45,10 @@ public class LocationsTransit : MonoBehaviour
     }
     private void ChangePosition()
     {
+        // Первая строка изменяет позицию-физику, вторая же фактическую позицию(они конфликтуют при смене локации).
+        PlayerMovement.Instance.GetComponent<Rigidbody2D>().position = SpawnerTransform.position;   
         PlayerMovement.Instance.transform.position = SpawnerTransform.position;
+        Debug.Log("Change Position");
     }
     private void OnSceneLoad(Scene scene, LoadSceneMode mode)
     {
