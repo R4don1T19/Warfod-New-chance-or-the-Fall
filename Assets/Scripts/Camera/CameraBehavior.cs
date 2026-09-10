@@ -1,21 +1,47 @@
 using UnityEngine;
 public class CameraBehavior : MonoBehaviour
 {
+    public static CameraBehavior Instance;
     [SerializeField] private Transform PlayerTransform;
     private Vector3 CameraPosition;
     private int FixedPositionZ = -10;
     private int FixedPositionY = 2;
+    private float FixedPositionForLerp = 0.5f;
+    public bool CameraBindedToDialogue = false;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            return;
+        }
+        Destroy(gameObject);
+    }
     private void Start()
     {
-        PlayerTransform = PlayerMovement.Instance.transform;
+        PlayerTransform = PlayerBaseMovement.Instance.transform;
     }
     private void FixedUpdate()
     {
-        BoundToPlayer();
+        if (!CameraBindedToDialogue)
+            BoundToPlayer();
+        else
+            BoundToDialogue();
     }
     private void BoundToPlayer()
     {
         CameraPosition = new Vector3(PlayerTransform.position.x, PlayerTransform.position.y + FixedPositionY, FixedPositionZ);
         transform.position = CameraPosition;
+    }
+    public void BoundToDialogue()
+    {
+        Transform NPCTransform = PlayerTransform.GetComponentInChildren<DialoguePlayerDetect>().NPCTrasform;
+        Vector3 npcPosition = new Vector3(NPCTransform.position.x, NPCTransform.position.y + FixedPositionY, FixedPositionZ);
+
+        Vector3 PlayerPosition = new Vector3(PlayerTransform.position.x, PlayerTransform.position.y + FixedPositionY, FixedPositionZ);
+
+        Vector3 PositionBetweenAandB = Vector3.Lerp(npcPosition, PlayerPosition, FixedPositionForLerp);
+        transform.position = PositionBetweenAandB;
     }
 }
