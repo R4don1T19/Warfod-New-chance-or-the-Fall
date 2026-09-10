@@ -5,5 +5,6 @@ public class DialoguesLine
 {
     public string line;
     public string name;
-    public Sprite SpeakerSprite;
+    public Sprite FrolanSprite;
+    public Sprite OpponentSprite;
 }

@@ -4,5 +4,5 @@ using UnityEngine;
 [Serializable]
 public class DialoguesNode
 {
-    public List<DialoguesLine> Nodes = new List<DialoguesLine>();
+    public List<DialoguesLine> Lines = new List<DialoguesLine>();
 }
