@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ac0bc3d64ab95124a9430e73d465ec49
+guid: 6c304ab0a50e6444ca860a0fe5cd4c76
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5064357623569229290
-    second: StreetBackground-FarAwayHousesR_0
+      213: -5240137637272725863
+    second: FrolansHouse_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StreetBackground-FarAwayHousesR_0
+      name: FrolansHouse_0
       rect:
         serializedVersion: 2
-        x: 100
+        x: 40
         y: 0
-        width: 460
+        width: 229
         height: 151
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61a5d9fc299c7b9b0800000000000000
-      internalID: -5064357623569229290
+      spriteID: 9965434159a4747b0800000000000000
+      internalID: -5240137637272725863
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a82116e5779d5d3468af4b11687f360d
+    spriteID: 0b803ab932583da428f4143574cc561b
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StreetBackground-FarAwayHousesR_0: -5064357623569229290
+      FrolansHouse_0: -5240137637272725863
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
