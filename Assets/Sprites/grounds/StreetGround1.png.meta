@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 212324f44cd9552478ac4553b6d424dc
+guid: 789137122237eb04f97f234a72f53dfb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3443587638655865936
-    second: StreetLantern_0
+      213: -5690246391905062968
+    second: StreetGround1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,89 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StreetLantern_0
+      name: StreetGround1_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 4
-        width: 18
-        height: 55
-      alignment: 9
-      pivot: {x: 0.5421626, y: 0.5137987}
+        x: 0
+        y: 0
+        width: 320
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbadfc994be530d0800000000000000
-      internalID: -3443587638655865936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StreetLantern_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 4
-        width: 18
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 938e7c7f9a7aa064a8f825433140e949
-      internalID: 883525581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StreetLantern_2
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 4
-        width: 18
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e8a7b41005bf614b839bb73912972d9
-      internalID: -572159522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: StreetLantern_OFF
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 66
-        width: 18
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a449832260b7634e92c30a2b1e0a1ac
-      internalID: -1529153910
+      spriteID: 8cfec060e0f2801b0800000000000000
+      internalID: -5690246391905062968
       vertices: []
       indices: 
       edges: []
@@ -204,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9b9e1b5235fdd1d45add73d1e8afd76a
+    spriteID: 9e247711ad4a5ee4485e0f5c5ac029d4
     internalID: 0
     vertices: []
     indices: 
@@ -214,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StreetLantern_0: -3443587638655865936
-      StreetLantern_1: 883525581
-      StreetLantern_2: -572159522
-      StreetLantern_OFF: -1529153910
+      StreetGround1_0: -5690246391905062968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
