@@ -15,7 +15,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - FrontBuidlings
   - 
   - 
   - 
@@ -42,8 +42,17 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: FrontBuilding
+    uniqueID: 2520749403
+    locked: 0
+  - name: WindowOutside
+    uniqueID: 1275744085
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: LampOutside
+    uniqueID: 3889761119
     locked: 0
   m_RenderingLayers:
   - Default
