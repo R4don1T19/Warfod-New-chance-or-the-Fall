@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 11e85eae28d991a4eb6cf5e45f85ea4d
+guid: ab8d50e21f2a36a43964a44b4d9ccdd9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1358977373989363980
-    second: StreetGroundL_0
+      213: 937000060182096684
+    second: StreetGroundUpper1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StreetGroundL_0
+      name: StreetGroundUpper1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 92
+        width: 135
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fe129d4741f32de0800000000000000
-      internalID: -1358977373989363980
+      spriteID: c2b6cad1794e00d00800000000000000
+      internalID: 937000060182096684
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 842183a959b46da46b2a496396678b68
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StreetGroundL_0: -1358977373989363980
+      StreetGroundUpper1_0: 937000060182096684
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
