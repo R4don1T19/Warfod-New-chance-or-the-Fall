@@ -3,6 +3,9 @@ public class CameraBehavior : MonoBehaviour
 {
     public static CameraBehavior Instance;
     [SerializeField] private Transform PlayerTransform;
+    [Header("Границы для камеры")]
+    [SerializeField] private float leftBorder;
+    [SerializeField] private float rightBorder;
     private Vector3 CameraPosition;
     private int FixedPositionZ = -10;
     private int FixedPositionYA = 3;
@@ -25,9 +28,15 @@ public class CameraBehavior : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (transform.position.x <= leftBorder || transform.position.x >= rightBorder)
+        {
+            CameraStayInBorder(transform.position);
+            return;
+        }
+
         if (!CameraBindedToDialogue)
             BoundToPlayer();
-        else
+        else if (CameraBindedToDialogue)
             BoundToDialogue();
     }
     private void BoundToPlayer()
@@ -44,5 +53,12 @@ public class CameraBehavior : MonoBehaviour
 
         Vector3 PositionBetweenAandB = Vector3.Lerp(npcPosition, PlayerPosition, FixedPositionForLerp);
         transform.position = PositionBetweenAandB;
+    }
+    private void CameraStayInBorder(Vector3 position)
+    {
+        Debug.Log("Hi");
+        transform.position = position;
+        if (PlayerTransform.position.x > leftBorder && PlayerTransform.position.x < rightBorder)
+            BoundToPlayer();
     }
 }
