@@ -8,6 +8,7 @@ TagManager:
   - Door
   - Stairs
   - NPC
+  - CameraBorder
   layers:
   - Default
   - TransparentFX
