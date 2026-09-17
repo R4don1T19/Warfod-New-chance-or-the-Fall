@@ -5,6 +5,7 @@ public class LocationsTransit : MonoBehaviour
     private PlayerDoorDetect PDD;
     private Transform SpawnerTransform;
     private Rigidbody2D rb;
+    private Vector2 CameraPositionBeforeTransit;
     private string ToID;
     private string FromID;
     private bool HasTransit;
@@ -52,6 +53,8 @@ public class LocationsTransit : MonoBehaviour
     }
     private void OnSceneLoad(Scene scene, LoadSceneMode mode)
     {
+        CameraBehavior.Instance.IfCameraSpawnedAfterBorder();
+
         if (HasTransit)
         {
             FindTheCorrectDoor(ToID);

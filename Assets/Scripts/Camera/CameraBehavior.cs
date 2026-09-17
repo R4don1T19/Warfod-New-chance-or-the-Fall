@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 public class CameraBehavior : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class CameraBehavior : MonoBehaviour
     private Vector3 CameraPosition;
     private int FixedPositionZ = -10;
     private int FixedPositionYA = 3;
-    private int FixedPositionYB = 2;
+    private int FixedPositionYB = 1;
     private float FixedPositionForLerp = 0.5f;
     public bool CameraBindedToDialogue = false;
     private void Awake()
@@ -28,16 +29,12 @@ public class CameraBehavior : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (transform.position.x <= leftBorder || transform.position.x >= rightBorder)
-        {
-            CameraStayInBorder(transform.position);
-            return;
-        }
-
         if (!CameraBindedToDialogue)
             BoundToPlayer();
         else if (CameraBindedToDialogue)
             BoundToDialogue();
+
+        IfCameraSpawnedAfterBorder();
     }
     private void BoundToPlayer()
     {
@@ -54,11 +51,9 @@ public class CameraBehavior : MonoBehaviour
         Vector3 PositionBetweenAandB = Vector3.Lerp(npcPosition, PlayerPosition, FixedPositionForLerp);
         transform.position = PositionBetweenAandB;
     }
-    private void CameraStayInBorder(Vector3 position)
+    public void IfCameraSpawnedAfterBorder()
     {
-        Debug.Log("Hi");
-        transform.position = position;
-        if (PlayerTransform.position.x > leftBorder && PlayerTransform.position.x < rightBorder)
-            BoundToPlayer();
+        float PosX = Mathf.Clamp(transform.position.x, leftBorder, rightBorder);
+        transform.position = new Vector3(PosX, transform.position.y, FixedPositionZ);
     }
 }
