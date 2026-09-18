@@ -56,4 +56,9 @@ public class CameraBehavior : MonoBehaviour
         float PosX = Mathf.Clamp(transform.position.x, leftBorder, rightBorder);
         transform.position = new Vector3(PosX, transform.position.y, FixedPositionZ);
     }
+    public void GetBordersData(DataForBorders DFB)
+    {
+        leftBorder = DFB.LeftBorder;
+        rightBorder = DFB.RightBorder;
+    }
 }

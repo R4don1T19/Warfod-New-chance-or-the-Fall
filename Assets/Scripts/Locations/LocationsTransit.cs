@@ -53,7 +53,9 @@ public class LocationsTransit : MonoBehaviour
     }
     private void OnSceneLoad(Scene scene, LoadSceneMode mode)
     {
+        DataForBorders DFB = FindAnyObjectByType<DataForBorders>();
         CameraBehavior.Instance.IfCameraSpawnedAfterBorder();
+        CameraBehavior.Instance.GetBordersData(DFB);
 
         if (HasTransit)
         {
