@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 783ac77111b5d1a418bcaf29623ac057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DataForBorders
-  leftBorder: -5
+  leftBorder: -2
   rightBorder: 10
 --- !u!4 &357975562
 Transform:
