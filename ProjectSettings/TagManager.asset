@@ -43,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 3517895341
+    locked: 0
   - name: FrontBuilding
     uniqueID: 2520749403
     locked: 0
