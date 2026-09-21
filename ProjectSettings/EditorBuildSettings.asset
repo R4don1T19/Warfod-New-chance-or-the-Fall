@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/FrolansHouseCorridor.unity
     guid: 03ddc4c6a1b9de042a5971a618804f97
   - enabled: 1
-    path: Assets/Scenes/FrolansWorkHouse.unity
+    path: Assets/Scenes/FrolansWorkCorridor.unity
     guid: 38175d43d97e9b0479c2a3802327ae4f
+  - enabled: 1
+    path: Assets/Scenes/FrolansHouseRoom.unity
+    guid: bcbbf48d040b3d14db490b03fa9d6ef0
+  - enabled: 1
+    path: Assets/Scenes/FrolansWorkOffice.unity
+    guid: f5f4203e5e297c24790c3d5b04472c3e
   m_configObjects: {}
