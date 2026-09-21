@@ -1521,52 +1521,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1376008992
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1376008994}
-  - component: {fileID: 1376008993}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1376008993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376008992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 783ac77111b5d1a418bcaf29623ac057, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DataForBorders
-  leftBorder: -35
-  rightBorder: 22
---- !u!4 &1376008994
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376008992}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1389471125 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2208962744492121460, guid: 2df5c8661af1287469d1b6f226c5006b, type: 3}
@@ -2728,7 +2682,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3838932788224745879, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: toID
-      value: FrolansHouseWorkMain
+      value: FrolansWorkCorridorMain
       objectReference: {fileID: 0}
     - target: {fileID: 3838932788224745879, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: fromID
@@ -2736,7 +2690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3838932788224745879, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: sceneToLoad
-      value: FrolansWorkHouse
+      value: FrolansWorkCorridor
       objectReference: {fileID: 0}
     - target: {fileID: 5232597081022647772, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: m_Name
@@ -3292,6 +3246,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+--- !u!1001 &3940363894405981743
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733831215503746557, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5506106398750068524, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: m_Name
+      value: BorderData
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
 --- !u!1001 &4257073910339716138
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3774,4 +3785,4 @@ SceneRoots:
   - {fileID: 518877920}
   - {fileID: 1350577841}
   - {fileID: 2116141912}
-  - {fileID: 1376008994}
+  - {fileID: 3940363894405981743}
