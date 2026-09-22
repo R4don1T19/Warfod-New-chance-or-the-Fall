@@ -116,10 +116,10 @@ TextureImporter:
       name: WoodenStairs_0
       rect:
         serializedVersion: 2
-        x: 163
+        x: 1
         y: 0
-        width: 155
-        height: 46
+        width: 156
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
