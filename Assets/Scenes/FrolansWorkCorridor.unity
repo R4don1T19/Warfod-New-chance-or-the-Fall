@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stairs
       objectReference: {fileID: 0}
+    - target: {fileID: 6861792029208493077, guid: 1504b6ea949a50947b0b893f93b183f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.29
+      objectReference: {fileID: 0}
     - target: {fileID: 8110960341797974698, guid: 1504b6ea949a50947b0b893f93b183f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.42
@@ -322,9 +326,13 @@ PrefabInstance:
       propertyPath: m_Offset.x
       value: -0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 4377834876681576723, guid: 6f5d9ff17d2a5c549afe5a8f396deabe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.392
+      objectReference: {fileID: 0}
     - target: {fileID: 4514210546756314546, guid: 6f5d9ff17d2a5c549afe5a8f396deabe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.45
+      value: 27.45
       objectReference: {fileID: 0}
     - target: {fileID: 4514210546756314546, guid: 6f5d9ff17d2a5c549afe5a8f396deabe, type: 3}
       propertyPath: m_LocalPosition.y

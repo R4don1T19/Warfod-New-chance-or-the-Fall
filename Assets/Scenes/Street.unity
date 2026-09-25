@@ -264,7 +264,7 @@ Transform:
   m_GameObject: {fileID: 138967083}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0006, y: 2.13, z: 0}
+  m_LocalPosition: {x: -0.0006, y: 2.11, z: 0}
   m_LocalScale: {x: 0.02, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -936,6 +936,68 @@ Transform:
   - {fileID: 2085671910}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &978424752
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2116141912}
+    m_Modifications:
+    - target: {fileID: 327393475901957260, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_Name
+      value: StreetLantern (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.81377
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+--- !u!4 &978424753 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+  m_PrefabInstance: {fileID: 978424752}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1077532730
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,7 +1492,7 @@ MonoBehaviour:
   m_Intensity: 0.2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 000000005b953f965f0bd9e7554f0a4cadd2aed1
+  m_ApplyToSortingLayers: 000000005b953f965f0bd9e7554f0a4cadd2aed16f205a1d
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -2018,8 +2080,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 492445807
+  m_SortingLayer: 2
   m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
@@ -2042,7 +2104,7 @@ Transform:
   m_GameObject: {fileID: 1785809113}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -34.65, y: -2.35, z: 0}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2629,7 +2691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24
+      value: 18.19
       objectReference: {fileID: 0}
     - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2864,6 +2926,7 @@ Transform:
   - {fileID: 1833164923}
   - {fileID: 1862355390}
   - {fileID: 1598331998}
+  - {fileID: 978424753}
   - {fileID: 3392703708007925813}
   - {fileID: 75077062}
   - {fileID: 175951573}
@@ -3201,6 +3264,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StreetLantern
       objectReference: {fileID: 0}
+    - target: {fileID: 3045945393330489333, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045945393330489333, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[1]'
+      value: 492445807
+      objectReference: {fileID: 0}
     - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5
@@ -3435,15 +3506,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 267518570935266303, guid: a981cdf023e58ee4ea6b4d556e3d8688, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -34.65
       objectReference: {fileID: 0}
     - target: {fileID: 267518570935266303, guid: a981cdf023e58ee4ea6b4d556e3d8688, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.35
       objectReference: {fileID: 0}
     - target: {fileID: 267518570935266303, guid: a981cdf023e58ee4ea6b4d556e3d8688, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 267518570935266303, guid: a981cdf023e58ee4ea6b4d556e3d8688, type: 3}
       propertyPath: m_LocalRotation.w
