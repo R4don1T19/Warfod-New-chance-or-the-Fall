@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1a08e4f6d1c2360479e40732bc2cf646
+guid: c4c83ffe128fbc94c916ace33b32391b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7761992554256942807
-    second: WoodenStairs_0
+      213: 5733759660189646664
+    second: Celling1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WoodenStairs_0
+      name: Celling1_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 86
-        width: 188
-        height: 97
+        x: 0
+        y: 0
+        width: 417
+        height: 58
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d646b17a1328bb60800000000000000
-      internalID: 7761992554256942807
+      spriteID: 84f711d3808629f40800000000000000
+      internalID: 5733759660189646664
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fe10c50d9692f924fa607fc9f00c9dd8
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WoodenStairs_0: 7761992554256942807
+      Celling1_0: 5733759660189646664
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
