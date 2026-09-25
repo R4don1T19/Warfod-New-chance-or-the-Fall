@@ -58,6 +58,12 @@ TagManager:
   - name: LampOutside
     uniqueID: 3889761119
     locked: 0
+  - name: player
+    uniqueID: 492445807
+    locked: 0
+  - name: beforePlayer
+    uniqueID: 2093170891
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []
