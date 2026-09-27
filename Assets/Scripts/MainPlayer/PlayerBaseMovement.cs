@@ -4,6 +4,7 @@ public class PlayerBaseMovement : MonoBehaviour
 {
     public static PlayerBaseMovement Instance;
     private PlayerSurfaceConfig PSC;
+    [SerializeField] private Animator animator;
     private Rigidbody2D rb;
     private Quaternion FixedA = new Quaternion(0, 180, 0, 0);
     private Quaternion FixedB = new Quaternion(0, 0, 0, 0);
@@ -32,6 +33,10 @@ public class PlayerBaseMovement : MonoBehaviour
         float localDirection = Input.GetAxisRaw("Horizontal");
         Walk(localDirection);
         FlipThePlayer(localDirection);
+        if (localDirection == 0)
+            animator.SetBool("Run", false);
+        else
+            animator.SetBool("Run", true);
     }
     private void Walk(float direction)
     {
