@@ -9,8 +9,8 @@ public class CameraBehavior : MonoBehaviour
     [SerializeField] private float rightBorder;
     private Vector3 CameraPosition;
     private int FixedPositionZ = -10;
-    private int FixedPositionYA = 3;
-    private int FixedPositionYB = 1;
+    private int FixedPositionYA = 3; // Привязка камеры к игроку
+    private int FixedPositionYB = 1; // Привязка камеры к диалогу
     private float FixedPositionForLerp = 0.5f;
     public bool CameraBindedToDialogue = false;
     private void Awake()

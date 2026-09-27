@@ -45,10 +45,8 @@ public class LocationsTransit : MonoBehaviour
         SceneManager.LoadScene(LocalScene);
     }
     private void ChangePosition()
-    {
-        // Первая строка изменяет позицию-физику, вторая же фактическую позицию(они конфликтуют при смене локации).
-        PlayerBaseMovement.Instance.GetComponent<Rigidbody2D>().position = SpawnerTransform.position;   
-        PlayerBaseMovement.Instance.transform.position = SpawnerTransform.position;
+    {  
+        PlayerBaseMovement.Instance.ChangePositionOnTransit(SpawnerTransform.position);
         Debug.Log("Change Position");
     }
     private void OnSceneLoad(Scene scene, LoadSceneMode mode)
