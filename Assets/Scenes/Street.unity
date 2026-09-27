@@ -553,7 +553,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 2236439432430826311, guid: 42c9e80aa53027c4b9f0564979c085fc, type: 3}
+  m_Sprite: {fileID: 76074938811421040, guid: 414d1cfdc32ad1b468c2e2d283cbc2e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2246,6 +2246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b35e0e015a1779a49b6902afd7581777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  animator: {fileID: 240058075}
   speed: 5
 --- !u!114 &1818061470 stripped
 MonoBehaviour:
