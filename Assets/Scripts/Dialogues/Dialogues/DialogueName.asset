@@ -16,26 +16,26 @@ MonoBehaviour:
   - Lines:
     - line: hi
       name: mrwhite
-      FrolanSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+      FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
       OpponentSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     - line: hello
       name: mrfrolan
-      FrolanSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+      FrolanSprite: {fileID: -846938088, guid: ecee09db27319e1488f211820f451b0d, type: 3}
       OpponentSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     - line: ohmygad
       name: mrfrolan
-      FrolanSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+      FrolanSprite: {fileID: -846938088, guid: ecee09db27319e1488f211820f451b0d, type: 3}
       OpponentSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
     - line: nowayowayowayowayowayyyy
       name: mrfrolan
-      FrolanSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+      FrolanSprite: {fileID: -846938088, guid: ecee09db27319e1488f211820f451b0d, type: 3}
       OpponentSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   - Lines:
     - line: privat
       name: mrwhite
-      FrolanSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+      FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
       OpponentSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     - line: privet)
       name: mrfrolan
-      FrolanSprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+      FrolanSprite: {fileID: -846938088, guid: ecee09db27319e1488f211820f451b0d, type: 3}
       OpponentSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
