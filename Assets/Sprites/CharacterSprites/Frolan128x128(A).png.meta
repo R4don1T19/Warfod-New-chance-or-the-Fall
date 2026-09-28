@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 414d1cfdc32ad1b468c2e2d283cbc2e2
+guid: ecee09db27319e1488f211820f451b0d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 76074938811421040
-    second: FrolanWALK_0
-  - first:
-      213: 8878662598752678015
-    second: FrolanWALK_1
-  - first:
-      213: -4284092528037255324
-    second: FrolanWALK_2
-  - first:
-      213: -7052309697432425730
-    second: FrolanWALK_3
+      213: 433512810243848305
+    second: Frolan128x128_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,101 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FrolanWALK_0
+      name: Frolan128x128(A)_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 35
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0711a28f0c54e0100800000000000000
-      internalID: 76074938811421040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrolanWALK_1
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 0
-        width: 31
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f703337a798573b70800000000000000
-      internalID: 8878662598752678015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrolanWALK_2
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 0
-        width: 28
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4672f693b88db84c0800000000000000
-      internalID: -4284092528037255324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrolanWALK_3
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 0
-        width: 35
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: efa6f76e1b9212e90800000000000000
-      internalID: -7052309697432425730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrolanWALK_4
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 0
-        width: 27
-        height: 63
+        width: 128
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 908810323f83af34abec07a87a2ecf6f
-      internalID: 1762157763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrolanWALK_5
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 0
-        width: 28
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f8f7445b663149499aa7c368781a904
-      internalID: 1377830762
+      spriteID: d5834b84644d9df41b80b37324e1da1b
+      internalID: -846938088
       vertices: []
       indices: 
       edges: []
@@ -257,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 71b4abe20a91eb844befc4c10ea406ef
+    spriteID: ac4186bf1db564742b614a3f16a57bb5
     internalID: 0
     vertices: []
     indices: 
@@ -267,12 +148,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FrolanWALK_0: 76074938811421040
-      FrolanWALK_1: 8878662598752678015
-      FrolanWALK_2: -4284092528037255324
-      FrolanWALK_3: -7052309697432425730
-      FrolanWALK_4: 1762157763
-      FrolanWALK_5: 1377830762
+      Frolan128x128(A)_0: -846938088
+      Frolan128x128_0: 433512810243848305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
