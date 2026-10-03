@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: a2efdf3ce44a18848bc879afd8d10f5c
+guid: ed78b16d11738774c8d95b66c10bec0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2869115396899081085
-    second: Doors_0
-  - first:
-      213: -4950680412457382125
-    second: Doors_1
+      213: 5495911753391367898
+    second: WoodenGround(A)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Doors_0
+      name: WoodenGround(A)_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 256
-        width: 30
-        height: 55
+        x: 0
+        y: 0
+        width: 163
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,118 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 384f93c6fbade28d0800000000000000
-      internalID: -2869115396899081085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doors_1
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 198
-        width: 30
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31f4efa0566ab4bb0800000000000000
-      internalID: -4950680412457382125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doors_2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 198
-        width: 5
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6888fc79c2ba1b4bada1764bd5c0a34
-      internalID: -877094092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doors_WorkCorridor_A
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 256
-        width: 30
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cec5b479445135844a7b19d65c2e0222
-      internalID: -1717707255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doors_WorkCorridor_AS
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 198
-        width: 30
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0027cf084c26e3141ba595e09806cd82
-      internalID: 1633784968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Doors_WorkCorridor_ B
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 198
-        width: 5
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76a0947754f480a40a29c1d6019eb887
-      internalID: -715391842
+      spriteID: ad669c10f96654c40800000000000000
+      internalID: 5495911753391367898
       vertices: []
       indices: 
       edges: []
@@ -251,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b4224f0fae5d0684399e65f693cf7f36
+    spriteID: f36870c2506fbab489fc27758307ae91
     internalID: 0
     vertices: []
     indices: 
@@ -261,12 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Doors_0: -2869115396899081085
-      Doors_1: -4950680412457382125
-      Doors_2: -877094092
-      Doors_WorkCorridor_ B: -715391842
-      Doors_WorkCorridor_A: -1717707255
-      Doors_WorkCorridor_AS: 1633784968
+      WoodenGround(A)_0: 5495911753391367898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

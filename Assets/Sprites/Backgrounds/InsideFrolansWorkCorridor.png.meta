@@ -121,7 +121,7 @@ TextureImporter:
         width: 1024
         height: 512
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: InsideFrolansWorkCorridor_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 322
+        width: 34
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c229bf940745084388bd333bb4fbf93
+      internalID: -523975888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fb1f86f396e14c8429aecf02b80db3e4
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +171,8 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       InsideFrolansWorkCorridor_0: -2537422462549666079
+      InsideFrolansWorkCorridor_1: -523975888
+      InsideFrolansWorkCorridor_2: 820059701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
