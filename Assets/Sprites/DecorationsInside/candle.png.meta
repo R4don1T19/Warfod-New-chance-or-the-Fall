@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 212324f44cd9552478ac4553b6d424dc
+guid: 75f69bfebb350ee49837bfb9a12e8bfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3443587638655865936
-    second: StreetLantern_0
+      213: 1365539031471768751
+    second: candle_0
+  - first:
+      213: 3164754189931214212
+    second: candle_1
+  - first:
+      213: 765352457440723577
+    second: candle_2
+  - first:
+      213: 8724906649512049868
+    second: candle_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,89 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StreetLantern_0
+      name: candle_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 4
-        width: 18
-        height: 73
-      alignment: 9
-      pivot: {x: 0.5421626, y: 0.5137987}
+        x: 0
+        y: 171
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbadfc994be530d0800000000000000
-      internalID: -3443587638655865936
+      spriteID: fa44ec1a38e53f210800000000000000
+      internalID: 1365539031471768751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StreetLantern_1
+      name: candle_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 4
-        width: 18
-        height: 73
+        x: 14
+        y: 171
+        width: 15
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 938e7c7f9a7aa064a8f825433140e949
-      internalID: 883525581
+      spriteID: 485774c0b277beb20800000000000000
+      internalID: 3164754189931214212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StreetLantern_2
+      name: candle_2
       rect:
         serializedVersion: 2
-        x: 59
-        y: 4
-        width: 18
-        height: 73
+        x: 28
+        y: 171
+        width: 15
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8e8a7b41005bf614b839bb73912972d9
-      internalID: -572159522
+      spriteID: 9720ab941041f9a00800000000000000
+      internalID: 765352457440723577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StreetLantern_OFF
+      name: candle_3
       rect:
         serializedVersion: 2
-        x: 6
-        y: 81
-        width: 18
-        height: 73
+        x: 42
+        y: 171
+        width: 15
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9a449832260b7634e92c30a2b1e0a1ac
-      internalID: -1529153910
+      spriteID: cccfb960f58151970800000000000000
+      internalID: 8724906649512049868
       vertices: []
       indices: 
       edges: []
@@ -204,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9b9e1b5235fdd1d45add73d1e8afd76a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -214,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StreetLantern_0: -3443587638655865936
-      StreetLantern_1: 883525581
-      StreetLantern_2: -572159522
-      StreetLantern_OFF: -1529153910
+      candle_0: 1365539031471768751
+      candle_1: 3164754189931214212
+      candle_2: 765352457440723577
+      candle_3: 8724906649512049868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

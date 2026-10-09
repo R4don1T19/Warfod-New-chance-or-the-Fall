@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 212324f44cd9552478ac4553b6d424dc
+guid: 6e7e431e24b9a3542a559b25fde8decc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3443587638655865936
-    second: StreetLantern_0
+      213: -4062822473012478422
+    second: DecorationsOffice_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -38,7 +38,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: 1
+    aniso: 4
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
@@ -113,35 +113,35 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StreetLantern_0
+      name: DecorationsOffice_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 4
-        width: 18
-        height: 73
-      alignment: 9
-      pivot: {x: 0.5421626, y: 0.5137987}
+        x: 1
+        y: 81
+        width: 56
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbadfc994be530d0800000000000000
-      internalID: -3443587638655865936
+      spriteID: a2efd9e8c74fd97c0800000000000000
+      internalID: -4062822473012478422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StreetLantern_1
+      name: DecorationsOffice_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 4
-        width: 18
-        height: 73
+        x: 63
+        y: 82
+        width: 26
+        height: 78
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 938e7c7f9a7aa064a8f825433140e949
-      internalID: 883525581
+      spriteID: 6da4405182acb19488c11b99218a12a3
+      internalID: 2071075180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StreetLantern_2
+      name: DecorationsOffice_2
       rect:
         serializedVersion: 2
-        x: 59
-        y: 4
-        width: 18
-        height: 73
+        x: 115
+        y: 140
+        width: 58
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e8a7b41005bf614b839bb73912972d9
-      internalID: -572159522
+      spriteID: 7e34614c629d39b479ace9c0e1f87c86
+      internalID: -1785769080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StreetLantern_OFF
+      name: DecorationsOffice_3
       rect:
         serializedVersion: 2
-        x: 6
-        y: 81
-        width: 18
-        height: 73
+        x: 178
+        y: 139
+        width: 17
+        height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +194,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a449832260b7634e92c30a2b1e0a1ac
-      internalID: -1529153910
+      spriteID: a989e184c1863cc45bd8b990f3dd3c6b
+      internalID: 1283840856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 86
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727c146a4ebaf4348876072553855b21
+      internalID: -1604201750
       vertices: []
       indices: 
       edges: []
@@ -204,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9b9e1b5235fdd1d45add73d1e8afd76a
+    spriteID: 4b8d238c9e7771c4b8b819a34c4b7fd2
     internalID: 0
     vertices: []
     indices: 
@@ -214,10 +236,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StreetLantern_0: -3443587638655865936
-      StreetLantern_1: 883525581
-      StreetLantern_2: -572159522
-      StreetLantern_OFF: -1529153910
+      DecorationsOffice_0: -4062822473012478422
+      DecorationsOffice_1: 2071075180
+      DecorationsOffice_2: -1785769080
+      DecorationsOffice_3: 1283840856
+      DecorationsOffice_4: -1604201750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
