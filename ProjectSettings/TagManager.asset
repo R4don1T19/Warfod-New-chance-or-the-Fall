@@ -61,6 +61,9 @@ TagManager:
   - name: LampOutside
     uniqueID: 3889761119
     locked: 0
+  - name: Decorations
+    uniqueID: 2283393
+    locked: 0
   - name: player
     uniqueID: 492445807
     locked: 0
