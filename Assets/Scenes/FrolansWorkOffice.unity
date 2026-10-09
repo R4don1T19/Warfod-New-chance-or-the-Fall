@@ -566,7 +566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5896141370700904047, guid: b2c85f50fbc6a4141848823b5f1baa15, type: 3}
       propertyPath: m_SortingLayerID
-      value: 492445807
+      value: 2283393
       objectReference: {fileID: 0}
     - target: {fileID: 7263564328616080646, guid: b2c85f50fbc6a4141848823b5f1baa15, type: 3}
       propertyPath: m_Name
@@ -1717,8 +1717,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 492445807
-  m_SortingLayer: 3
+  m_SortingLayerID: 2283393
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4062822473012478422, guid: 6e7e431e24b9a3542a559b25fde8decc, type: 3}
