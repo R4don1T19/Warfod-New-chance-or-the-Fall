@@ -163,6 +163,14 @@ PrefabInstance:
       propertyPath: m_PointLightOuterRadius
       value: 1.83
       objectReference: {fileID: 0}
+    - target: {fileID: 5509670803601570440, guid: e8784154b2329df469273f58265b02aa, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5509670803601570440, guid: e8784154b2329df469273f58265b02aa, type: 3}
+      propertyPath: 'm_ApplyToSortingLayers.Array.data[1]'
+      value: 492445807
+      objectReference: {fileID: 0}
     - target: {fileID: 7006192672105197258, guid: e8784154b2329df469273f58265b02aa, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -1349,7 +1357,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 2093170891
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 15
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7761992554256942807, guid: 8e4b1fa9fa11a604e8a0f51bcf6e716b, type: 3}

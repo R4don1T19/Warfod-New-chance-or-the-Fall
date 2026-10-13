@@ -1816,10 +1816,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: StreetLantern (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 373581235018801354, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3392703709223617953, guid: 1412cb0101dab61449f34d81783ff134, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.83
@@ -2434,7 +2430,7 @@ Transform:
   m_GameObject: {fileID: 1892952822}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.83, y: 1, z: 0}
+  m_LocalPosition: {x: 40.2, y: 1.5, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
