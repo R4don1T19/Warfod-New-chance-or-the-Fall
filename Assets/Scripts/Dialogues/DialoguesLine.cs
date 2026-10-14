@@ -7,4 +7,5 @@ public class DialoguesLine
     public string name;
     public Sprite FrolanSprite;
     public Sprite OpponentSprite;
+    public bool FirstLine;
 }

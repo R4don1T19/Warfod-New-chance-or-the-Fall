@@ -46,11 +46,12 @@ public class DialogueManager : MonoBehaviour
         SpeakerName.text = Line.name;
         OpponentImage.sprite = Line.OpponentSprite;
         FrolanImage.sprite = Line.FrolanSprite;
+        bool firstLine = Line.FirstLine;
 
         // Проверка на принудительную остановку корутины
         if (TypeCoroutine != null)
             StopCoroutine(TypeCoroutine);
-        TypeCoroutine = StartCoroutine(TypeTextLine(Line.line));
+        TypeCoroutine = StartCoroutine(TypeTextLine(Line.line, firstLine));
 
         // нужно для корутины
         PreviousSpeakerName = SpeakerName.text;
@@ -66,9 +67,9 @@ public class DialogueManager : MonoBehaviour
             }
         }
     }
-    private IEnumerator TypeTextLine(string line)
+    private IEnumerator TypeTextLine(string line, bool FirstLine)
     {
-        if (PreviousSpeakerName == SpeakerName.text)
+        if (PreviousSpeakerName == SpeakerName.text && !FirstLine)
             SpeakerSpeech.text += " ";
         else
             SpeakerSpeech.text = "";
