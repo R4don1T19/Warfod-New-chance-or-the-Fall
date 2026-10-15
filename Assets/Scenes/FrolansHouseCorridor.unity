@@ -131,9 +131,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: AleksandraKollin
       objectReference: {fileID: 0}
+    - target: {fileID: 6977092876108514426, guid: 53c3edb6e7bc9dc4584882df7824e28b, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 8d33f9e19e945aa49b06f28ec71e7095, type: 2}
     - target: {fileID: 7026102938171250801, guid: 53c3edb6e7bc9dc4584882df7824e28b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.71
+      value: -1.95
       objectReference: {fileID: 0}
     - target: {fileID: 7026102938171250801, guid: 53c3edb6e7bc9dc4584882df7824e28b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1152,7 +1156,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 8d33f9e19e945aa49b06f28ec71e7095, type: 2}
     - target: {fileID: 7026102938171250801, guid: 53c3edb6e7bc9dc4584882df7824e28b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.5504484
+      value: -3.83
       objectReference: {fileID: 0}
     - target: {fileID: 7026102938171250801, guid: 53c3edb6e7bc9dc4584882df7824e28b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1503,15 +1507,15 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 2154403253680084730, guid: dfd325c401b723445ac67a107c2baaca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.4375, y: 3.6875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
 --- !u!1 &1884958076
