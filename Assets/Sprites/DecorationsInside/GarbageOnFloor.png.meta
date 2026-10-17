@@ -162,6 +162,72 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 7
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687244b8b597eac49b1e918d19b9aad9
+      internalID: -7843843595140653080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 8
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ba7a3d84eec1d4aa99a05dae434fc6
+      internalID: 1416525465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 10
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8fe8e14fcb6764ab0d719066e7789b
+      internalID: 1301122963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -179,6 +245,8 @@ TextureImporter:
       GarbageOnFloor_0: -4782984938796581944
       GarbageOnFloor_1: -323003979442985958
       GarbageOnFloor_2: -7843843595140653080
+      GarbageOnFloor_3: 1416525465
+      GarbageOnFloor_4: 1301122963
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
