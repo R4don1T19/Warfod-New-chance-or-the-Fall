@@ -164,7 +164,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 198
+        y: 139
         width: 5
         height: 55
       alignment: 0
@@ -190,7 +190,7 @@ TextureImporter:
         width: 30
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,7 +212,7 @@ TextureImporter:
         width: 30
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,7 +234,7 @@ TextureImporter:
         width: 5
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,6 +243,28 @@ TextureImporter:
       bones: []
       spriteID: 76a0947754f480a40a29c1d6019eb887
       internalID: -715391842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 139
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3e15c67e06216489dfad929b09731e
+      internalID: 1298759211
       vertices: []
       indices: 
       edges: []
@@ -264,6 +286,7 @@ TextureImporter:
       Doors_0: -2869115396899081085
       Doors_1: -4950680412457382125
       Doors_2: -877094092
+      Doors_3: 1298759211
       Doors_WorkCorridor_ B: -715391842
       Doors_WorkCorridor_A: -1717707255
       Doors_WorkCorridor_AS: 1633784968
