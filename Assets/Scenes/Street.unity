@@ -3225,7 +3225,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3838932788224745879, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: sceneToLoad
-      value: FrolansHouseCorridor2
+      value: FrolansHouseCorridor3
       objectReference: {fileID: 0}
     - target: {fileID: 5232597081022647772, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: m_Name
