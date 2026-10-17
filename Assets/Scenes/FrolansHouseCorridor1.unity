@@ -209,7 +209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4502816003431467519, guid: e8784154b2329df469273f58265b02aa, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4502816003431467519, guid: e8784154b2329df469273f58265b02aa, type: 3}
       propertyPath: m_SortingLayerID
@@ -2297,6 +2297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doors(G-)
       objectReference: {fileID: 0}
+    - target: {fileID: 6243150999509197886, guid: 889fe465354ef9344b351361b47dc704, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2869115396899081085, guid: a2efdf3ce44a18848bc879afd8d10f5c, type: 3}
     - target: {fileID: 6243150999509197886, guid: 889fe465354ef9344b351361b47dc704, type: 3}
       propertyPath: m_SortingLayer
       value: -2

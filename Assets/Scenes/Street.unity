@@ -967,7 +967,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1, y: 0}
+  m_Offset: {x: 0.6024859, y: 0.013193786}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -977,7 +977,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 4, y: 1.2}
+  m_Size: {x: 1.7076836, y: 1.9256576}
   m_EdgeRadius: 0
 --- !u!1 &776330921
 GameObject:
@@ -3223,6 +3223,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 931560515}
     m_Modifications:
+    - target: {fileID: 3838932788224745879, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
+      propertyPath: sceneToLoad
+      value: FrolansHouseCorridor2
+      objectReference: {fileID: 0}
     - target: {fileID: 5232597081022647772, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: m_Name
       value: Door
