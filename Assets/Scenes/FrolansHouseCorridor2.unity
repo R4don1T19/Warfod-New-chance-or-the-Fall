@@ -809,6 +809,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1548470347023089145, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548470347023089145, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548470347023089145, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2736578732045250589, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
       propertyPath: m_Name
       value: Lanters1 (1)
@@ -986,7 +998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3838932788224745879, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: sceneToLoad
-      value: FrolansHouseRoom
+      value: FrolansHouseRoom2
       objectReference: {fileID: 0}
     - target: {fileID: 5232597081022647772, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: m_Name
@@ -1045,6 +1057,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1548470347023089145, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 2736578732045250589, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
       propertyPath: m_Name
       value: Lanters1 (2)
@@ -1055,7 +1071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8588462989685686926, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.9
+      value: 7.04
       objectReference: {fileID: 0}
     - target: {fileID: 8588462989685686926, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2082,6 +2098,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1548470347023089145, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
+      propertyPath: m_SortingOrder
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 2736578732045250589, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
       propertyPath: m_Name
       value: Lanters1
