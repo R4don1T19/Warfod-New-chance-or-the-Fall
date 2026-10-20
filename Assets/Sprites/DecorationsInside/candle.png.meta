@@ -218,7 +218,7 @@ TextureImporter:
         width: 14
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,6 +227,94 @@ TextureImporter:
       bones: []
       spriteID: f4dc118643956db458a87d80a7a8cd15
       internalID: -124495476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bd5bfb9570e5b4d80c95d958b4d5ba
+      internalID: 556883557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 126
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b12132d8bac6764998b39a06fb232fb
+      internalID: 1714022657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 126
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80983183fbf5ed4bb35a01db03197b3
+      internalID: -950406843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_8
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 126
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358094d7ac6c97b41af8068a168c9481
+      internalID: 1483061881
       vertices: []
       indices: 
       edges: []
@@ -250,6 +338,10 @@ TextureImporter:
       candle_2: 765352457440723577
       candle_3: 8724906649512049868
       candle_4: -124495476
+      candle_5: 556883557
+      candle_6: 1714022657
+      candle_7: -950406843
+      candle_8: 1483061881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
