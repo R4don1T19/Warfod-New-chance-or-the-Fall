@@ -240,7 +240,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,7 +262,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,7 +284,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,7 +306,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -315,6 +315,94 @@ TextureImporter:
       bones: []
       spriteID: 358094d7ac6c97b41af8068a168c9481
       internalID: 1483061881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f562b43c46d15014b88446ad14d41e20
+      internalID: -1530047615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 104
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fd1fe514d78e64f94c4003e79d4c6d
+      internalID: 344084019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 104
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcccf4d963a819645b014be93eae2c0e
+      internalID: 1034925261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: candle_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 104
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a21aa29ee74b6948abf818744d743a3
+      internalID: -1547236726
       vertices: []
       indices: 
       edges: []
@@ -335,6 +423,9 @@ TextureImporter:
     nameFileIdTable:
       candle_0: 1365539031471768751
       candle_1: 3164754189931214212
+      candle_10: 344084019
+      candle_11: 1034925261
+      candle_12: -1547236726
       candle_2: 765352457440723577
       candle_3: 8724906649512049868
       candle_4: -124495476
@@ -342,6 +433,7 @@ TextureImporter:
       candle_6: 1714022657
       candle_7: -950406843
       candle_8: 1483061881
+      candle_9: -1530047615
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
