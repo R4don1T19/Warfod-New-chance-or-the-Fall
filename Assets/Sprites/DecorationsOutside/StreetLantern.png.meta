@@ -200,6 +200,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: StreetLantern_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 81
+        width: 18
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacffbd696c197d478a377aff59113c7
+      internalID: 365565819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StreetLantern_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 81
+        width: 18
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ced3920a2741b4ead14aa5a9ba7323
+      internalID: -421265788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -217,6 +261,8 @@ TextureImporter:
       StreetLantern_0: -3443587638655865936
       StreetLantern_1: 883525581
       StreetLantern_2: -572159522
+      StreetLantern_3: 365565819
+      StreetLantern_4: -421265788
       StreetLantern_OFF: -1529153910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
