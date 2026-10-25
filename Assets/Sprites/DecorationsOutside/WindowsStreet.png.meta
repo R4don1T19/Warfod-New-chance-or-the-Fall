@@ -359,6 +359,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: WindowsStreet_0
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 180
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6c2830c1e43b442a200ff6d1a21b33
+      internalID: -2047926970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -373,6 +395,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      WindowsStreet_0: -2047926970
       WindowsStreet_0A: 806793451726383159
       WindowsStreet_0B: 2132898359564530030
       WindowsStreet_0C: -5978637127850786046
