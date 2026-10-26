@@ -9,6 +9,7 @@ using UnityEngine.UI;
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
+    public bool IsPlaying { get; private set; }
     public bool TimeToEndDialogue { get { return timeToEndDialogue; } }
     [SerializeField] private GameObject DialogueBoxUI;
     [SerializeField] private TMP_Text SpeakerName;
@@ -33,6 +34,29 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         DialogueBoxUI.SetActive(false);
+    }
+    public IEnumerator PlayDialogue(DialoguesGraph dialogue)
+    {
+        DialogueBoxUI.SetActive(true);
+        PreviousSpeakerName = null;
+
+        foreach(DialoguesNode node in dialogue.Nodes)
+        {
+            foreach(DialoguesLine line in node.Lines)
+            {
+                IsPlaying = true;
+                SpeakerName.text = line.name;
+                OpponentImage.sprite = line.OpponentSprite;
+                FrolanImage.sprite = line.FrolanSprite;
+
+                yield return TypeTextLine(line.line, line.FirstLine);
+                PreviousSpeakerName = line.name;
+                // этот метод как yeild return WaitForSecond, но с постановкой условия
+                yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
+            }
+        }
+        DialogueBoxUI.SetActive(false);
+        IsPlaying = false;
     }
     public void StartDialogue(DialoguesGraph dialogue)
     {
@@ -80,7 +104,7 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(0.03f);
         }
 
-        TypeCoroutine = null;
+        //TypeCoroutine = null; лучше временно убрать(по подсказке)
     }
     public void EndDialogue()
     {

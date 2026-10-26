@@ -8,21 +8,26 @@ public class DialoguePlayerDetect : MonoBehaviour
     private Transform npctransform;
     private void Update()
     {
-        if (DialogueManager.Instance.TimeToEndDialogue)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-                DialogueManager.Instance.EndDialogue();
-        }
-        else if (ReadyToTalk)
-        {
-            // Пока печатается текст, прерывать корутину нельзя!
-            if (DialogueManager.Instance.TypeCoroutine != null)
-                return;
-
-            if (Input.GetKeyDown(KeyCode.E))
-                DialogueManager.Instance.StartDialogue(CurrentDialogue);
-        }
+        if (ReadyToTalk && !GameplayLock.Instance.IsBusy && Input.GetKeyDown(KeyCode.E))
+            GameplayLock.Instance.Play(DialogueManager.Instance.PlayDialogue(CurrentDialogue));
     }
+    //private void Update()
+    //{
+    //    if (DialogueManager.Instance.TimeToEndDialogue)
+    //    {
+    //        if (Input.GetKeyDown(KeyCode.E))
+    //            DialogueManager.Instance.EndDialogue();
+    //    }
+    //    else if (ReadyToTalk)
+    //    {
+    //         //Пока печатается текст, прерывать корутину нельзя!
+    //        if (DialogueManager.Instance.TypeCoroutine != null)
+    //            return;
+
+    //        if (Input.GetKeyDown(KeyCode.E))
+    //            DialogueManager.Instance.StartDialogue(CurrentDialogue);
+    //    }
+    //}
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("NPC"))

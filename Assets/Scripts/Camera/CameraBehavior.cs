@@ -1,4 +1,5 @@
 using Unity.VisualScripting;
+using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 public class CameraBehavior : MonoBehaviour
 {
@@ -44,6 +45,11 @@ public class CameraBehavior : MonoBehaviour
     public void BoundToDialogue()
     {
         Transform NPCTransform = PlayerTransform.GetComponentInChildren<DialoguePlayerDetect>().NPCTrasform;
+        if (NPCTransform == null)
+        {
+            BoundToPlayer();
+            return;
+        }    
         Vector3 npcPosition = new Vector3(NPCTransform.position.x, NPCTransform.position.y + FixedPositionYB, FixedPositionZ);
 
         Vector3 PlayerPosition = new Vector3(PlayerTransform.position.x, PlayerTransform.position.y + FixedPositionYB, FixedPositionZ);
