@@ -32,6 +32,7 @@ public class GameplayLock : MonoBehaviour
 
         yield return routine;
 
+
         PlayerBaseMovement.Instance.enabled = true;
         CameraBehavior.Instance.CameraBindedToDialogue = false;
         IsBusy = false;

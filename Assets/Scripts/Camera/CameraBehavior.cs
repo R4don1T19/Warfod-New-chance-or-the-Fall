@@ -14,6 +14,7 @@ public class CameraBehavior : MonoBehaviour
     private int FixedPositionYB = 1; // Привязка камеры к диалогу
     private float FixedPositionForLerp = 0.5f;
     public bool CameraBindedToDialogue = false;
+    public bool CameraInCutscene = false;
     private void Awake()
     {
         if (Instance == null)
