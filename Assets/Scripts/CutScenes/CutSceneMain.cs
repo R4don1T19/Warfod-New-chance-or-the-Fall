@@ -10,6 +10,7 @@ public class CutSceneMain : MonoBehaviour
     {
         foreach (var step in steps)
             yield return step.Run();
+        Debug.Log("CutScene is over!");
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

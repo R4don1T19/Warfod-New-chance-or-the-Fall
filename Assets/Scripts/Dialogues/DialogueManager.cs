@@ -16,6 +16,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TMP_Text SpeakerSpeech;
     [SerializeField] private Image FrolanImage;
     [SerializeField] private Image OpponentImage;
+    [SerializeField] private TMP_FontAsset Simple;
+    [SerializeField] private TMP_FontAsset Official;
     private bool timeToEndDialogue = false;
     private int NodeCount = 0;
     private int LineCount = 0;
@@ -49,7 +51,11 @@ public class DialogueManager : MonoBehaviour
                 OpponentImage.sprite = line.OpponentSprite;
                 FrolanImage.sprite = line.FrolanSprite;
 
-                yield return TypeTextLine(line.line, line.FirstLine);
+                if (line.IsSpecialFontUsed)
+                    yield return TypeTextLine(line.line, line.FirstLine, Official);
+                else
+                    yield return TypeTextLine(line.line, line.FirstLine, Simple);
+                
                 PreviousSpeakerName = line.name;
                 // этот метод как yeild return WaitForSecond, но с постановкой условия
                 yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
@@ -70,12 +76,13 @@ public class DialogueManager : MonoBehaviour
         SpeakerName.text = Line.name;
         OpponentImage.sprite = Line.OpponentSprite;
         FrolanImage.sprite = Line.FrolanSprite;
+
         bool firstLine = Line.FirstLine;
 
         // Проверка на принудительную остановку корутины
         if (TypeCoroutine != null)
             StopCoroutine(TypeCoroutine);
-        TypeCoroutine = StartCoroutine(TypeTextLine(Line.line, firstLine));
+        TypeCoroutine = StartCoroutine(TypeTextLine(Line.line, firstLine, Simple));
 
         // нужно для корутины
         PreviousSpeakerName = SpeakerName.text;
@@ -91,8 +98,11 @@ public class DialogueManager : MonoBehaviour
             }
         }
     }
-    private IEnumerator TypeTextLine(string line, bool FirstLine)
+    private IEnumerator TypeTextLine(string line, bool FirstLine, TMP_FontAsset localFont)
     {
+        SpeakerName.font = localFont;
+        SpeakerSpeech.font = localFont;
+
         if (PreviousSpeakerName == SpeakerName.text && !FirstLine)
             SpeakerSpeech.text += " ";
         else
@@ -104,7 +114,7 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(0.03f);
         }
 
-        //TypeCoroutine = null; лучше временно убрать(по подсказке)
+        TypeCoroutine = null; //лучше временно убрать(по подсказке)
     }
     public void EndDialogue()
     {

@@ -32,9 +32,10 @@ public class GameplayLock : MonoBehaviour
 
         yield return routine;
 
-
         PlayerBaseMovement.Instance.enabled = true;
         CameraBehavior.Instance.CameraBindedToDialogue = false;
+        CameraBehavior.Instance.CameraInCutscene = false;
         IsBusy = false;
+        Debug.Log("Now, Character is free to move!");
     }
 }

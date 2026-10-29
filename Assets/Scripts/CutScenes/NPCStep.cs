@@ -6,6 +6,8 @@ public class NPCStep : CutSceneStep
 {
     [SerializeField] private Transform actor;
     [SerializeField] private Transform target;
+    [SerializeField] private Animator animator;
+    [SerializeField] private string Trigger;
     [SerializeField] private float speed = 2f;
     public override IEnumerator Run()
     {
@@ -19,7 +21,10 @@ public class NPCStep : CutSceneStep
                 actor.rotation = Quaternion.identity;
 
             actor.position = Vector2.MoveTowards(actor.position, target.position, speed * Time.deltaTime);
+            animator.SetBool(Trigger, true);
             yield return null;
         }
+        animator.SetBool(Trigger, false);
+        Debug.Log("NPCStep is over");
     }
 }

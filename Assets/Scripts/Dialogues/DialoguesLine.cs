@@ -8,4 +8,5 @@ public class DialoguesLine
     public Sprite FrolanSprite;
     public Sprite OpponentSprite;
     public bool FirstLine;
+    public bool IsSpecialFontUsed;
 }

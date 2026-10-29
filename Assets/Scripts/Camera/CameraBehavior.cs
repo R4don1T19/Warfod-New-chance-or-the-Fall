@@ -31,7 +31,9 @@ public class CameraBehavior : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (!CameraBindedToDialogue)
+        if (CameraInCutscene)
+            return;
+        else if (!CameraBindedToDialogue)
             BoundToPlayer();
         else if (CameraBindedToDialogue)
             BoundToDialogue();

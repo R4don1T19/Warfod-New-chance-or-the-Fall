@@ -8,5 +8,6 @@ public class WaitStep : CutSceneStep
     public override IEnumerator Run()
     {
         yield return new WaitForSeconds(Waitness);
+        Debug.Log("Waitness is over");
     }
 }
