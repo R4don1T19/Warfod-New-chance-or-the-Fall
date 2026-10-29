@@ -58,4 +58,9 @@ public class PlayerBaseMovement : MonoBehaviour
         rb.position = new Vector2(localPosition.x, localPosition.y + fixedYA);
         transform.position = new Vector2(localPosition.x, localPosition.y + fixedYA);
     }
+
+    private void OnDisable()
+    {
+        animator.SetBool("Run", false);
+    }
 }
