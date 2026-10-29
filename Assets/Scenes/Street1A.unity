@@ -1742,6 +1742,7 @@ GameObject:
   - component: {fileID: 1077532732}
   - component: {fileID: 1077532731}
   - component: {fileID: 1077532734}
+  - component: {fileID: 1077532735}
   m_Layer: 0
   m_Name: Singleton
   m_TagString: Untagged
@@ -1806,6 +1807,18 @@ MonoBehaviour:
   SpeakerSpeech: {fileID: 1439004236}
   FrolanImage: {fileID: 408197244}
   OpponentImage: {fileID: 1578779019}
+--- !u!114 &1077532735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077532730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27cc31f238072ab4ba1ea903c4d855b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameplayLock
 --- !u!4 &1121999051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5905779826954764063, guid: 77b377080443d2a40907e29e706bd0bf, type: 3}
