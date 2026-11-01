@@ -5,15 +5,15 @@ using UnityEngine.UI;
 public class SpriteChangeStep : CutSceneStep
 {
     [SerializeField] private Sprite AfterSprite;
-    [SerializeField] private Image TargetImage;
+    [SerializeField] private SpriteRenderer TargetSprite;
 
-    private void ChangeSprite(Sprite sprite, Image image)
+    private void ChangeSprite(Sprite sprite, SpriteRenderer target)
     {
-        image.sprite = sprite; 
+        target.sprite = sprite; 
     }
     public override IEnumerator Run()
     {
-        ChangeSprite(AfterSprite, TargetImage);
+        ChangeSprite(AfterSprite, TargetSprite);
         yield return null;
     }
 }
