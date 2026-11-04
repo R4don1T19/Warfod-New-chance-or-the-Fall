@@ -15,7 +15,7 @@ public class NPCStep : CutSceneStep
         {
             float direction = target.position.x - actor.position.x;
 
-            if (direction > -0.01f)
+            if (direction < -0.01f)
                 actor.rotation = Quaternion.Euler(0, 180, 0);
             else
                 actor.rotation = Quaternion.identity;
