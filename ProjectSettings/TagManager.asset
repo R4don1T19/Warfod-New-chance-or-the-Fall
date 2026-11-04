@@ -9,6 +9,7 @@ TagManager:
   - Stairs
   - NPC
   - CameraBorder
+  - LTS
   layers:
   - Default
   - TransparentFX
