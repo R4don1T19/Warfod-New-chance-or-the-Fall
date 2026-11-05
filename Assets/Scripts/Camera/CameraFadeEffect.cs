@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +8,7 @@ public class CameraFadeEffect : MonoBehaviour
 {
     public static CameraFadeEffect Instance;
     [SerializeField] private Image FadeImage;
+    public event Action OnFadeComplete;
     private void Awake()
     {
         if (Instance == null)
@@ -27,5 +30,7 @@ public class CameraFadeEffect : MonoBehaviour
             yield return null;
         }
         FadeImage.color = new Color(0, 0, 0, targetAlfa);
+
+        OnFadeComplete?.Invoke();
     }
 }

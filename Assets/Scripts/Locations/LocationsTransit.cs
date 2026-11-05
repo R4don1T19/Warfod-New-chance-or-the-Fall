@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LocationsTransit : MonoBehaviour
@@ -9,6 +10,10 @@ public class LocationsTransit : MonoBehaviour
     private string ToID;
     private string FromID;
     private bool HasTransit;
+    private float BlackFE = 1f;
+    private float WhiteFE = 0f;
+    private float FixedTimeForFE = 1f;
+    private string FixedScene;
     private void Start()
     {
         PDD = PlayerBaseMovement.Instance.GetComponentInChildren<PlayerDoorDetect>();
@@ -42,7 +47,17 @@ public class LocationsTransit : MonoBehaviour
         ToID = PDD.ToID;
         FromID = PDD.FromID;
         HasTransit = true;
-        SceneManager.LoadScene(LocalScene);
+        PlayerBaseMovement.Instance.enabled = false;
+        FixedScene = LocalScene;
+
+        CameraFadeEffect.Instance.OnFadeComplete += AfterFadeEffect;
+        StartCoroutine(CameraFadeEffect.Instance.FadeEffect(BlackFE, FixedTimeForFE));
+    }
+    private void AfterFadeEffect()
+    {
+        CameraFadeEffect.Instance.OnFadeComplete -= AfterFadeEffect;
+        SceneManager.LoadScene(FixedScene);
+        FixedScene = null;
     }
     private void ChangePosition()
     {  
@@ -59,6 +74,9 @@ public class LocationsTransit : MonoBehaviour
         {
             FindTheCorrectDoor(ToID);
             ChangePosition();
+            StartCoroutine(CameraFadeEffect.Instance.FadeEffect(WhiteFE, FixedTimeForFE));
+            PlayerBaseMovement.Instance.enabled = true;
+            HasTransit = false;
         }
     }
     private void OnEnable()
