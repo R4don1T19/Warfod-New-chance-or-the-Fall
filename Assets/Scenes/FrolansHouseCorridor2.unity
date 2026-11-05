@@ -552,6 +552,10 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: Street2
       objectReference: {fileID: 0}
+    - target: {fileID: 3838932788224745879, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
+      propertyPath: IsAbleToEnter
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5232597081022647772, guid: 295e6f99096f7454a91a2660fe2a7c46, type: 3}
       propertyPath: m_Name
       value: Door
@@ -1652,7 +1656,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 2093170891
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 15
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7761992554256942807, guid: 8e4b1fa9fa11a604e8a0f51bcf6e716b, type: 3}
