@@ -65,14 +65,14 @@ TagManager:
   - name: Decorations
     uniqueID: 2283393
     locked: 0
+  - name: LTS
+    uniqueID: 3955197283
+    locked: 0
   - name: player
     uniqueID: 492445807
     locked: 0
   - name: beforePlayer
     uniqueID: 2093170891
-    locked: 0
-  - name: LTS
-    uniqueID: 3955197283
     locked: 0
   m_RenderingLayers:
   - Default
