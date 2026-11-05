@@ -6,11 +6,14 @@ public class PlayerDoorDetect : MonoBehaviour
     internal string FromID;
     internal string SceneToLoad;
     internal bool readyToEnter = false;
+    private bool isAble = false;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Door"))
         {
+            if (!other.GetComponentInChildren<LocationsDoorID>().IsAbleToEnter)
+                return;
             readyToEnter = true;
             ToID = other.GetComponentInChildren<LocationsDoorID>().ToID;
             FromID = other.GetComponentInChildren<LocationsDoorID>().ToID;

@@ -9,4 +9,5 @@ public class LocationsDoorID : MonoBehaviour
     public string ToID { get { return toID; } }
     [SerializeField] private string sceneToLoad;
     public string SceneToLoad { get { return sceneToLoad; } }
+    [SerializeField] public bool IsAbleToEnter;
 }
