@@ -4,6 +4,7 @@ using System.Collections;
 public class GameplayLock : MonoBehaviour
 {
     public static GameplayLock Instance;
+    [SerializeField] private LittleTextSpeechDetector LTSd;
     public bool IsBusy { get; private set; }
 
     private void Awake()
@@ -29,10 +30,12 @@ public class GameplayLock : MonoBehaviour
         IsBusy = true;
         PlayerBaseMovement.Instance.enabled = false;
         CameraBehavior.Instance.CameraBindedToDialogue = true;
+        LTSd.gameObject.SetActive(false);
 
         yield return routine;
 
         PlayerBaseMovement.Instance.enabled = true;
+        LTSd.gameObject.SetActive(true);
         CameraBehavior.Instance.CameraBindedToDialogue = false;
         CameraBehavior.Instance.CameraInCutscene = false;
         IsBusy = false;

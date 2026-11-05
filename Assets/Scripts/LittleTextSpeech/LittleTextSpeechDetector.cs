@@ -1,10 +1,10 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class LittleTextSpeechDetector : MonoBehaviour
 {
     public bool IsReady { get; private set; }
-
-    public LittleTextSpeechGraph LTS;
+    public LittleTextSpeechGraph LTS;    
     public GameObject LTSObject;
     private void OnTriggerEnter2D(Collider2D collision)
     {
