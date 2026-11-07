@@ -7,9 +7,9 @@ TagManager:
   - Ground
   - Door
   - Stairs
-  - NPC
   - CameraBorder
   - LTS
+  - DialogueObject
   layers:
   - Default
   - TransparentFX
