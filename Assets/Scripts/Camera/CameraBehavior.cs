@@ -8,6 +8,8 @@ public class CameraBehavior : MonoBehaviour
     [Header("Границы для камеры")]
     [SerializeField] private float leftBorder;
     [SerializeField] private float rightBorder;
+    private float upBorder;
+    private float downBorder;
     private Vector3 CameraPosition;
     private int FixedPositionZ = -10;
     private int FixedPositionYA = 3; // Привязка камеры к игроку
@@ -47,7 +49,8 @@ public class CameraBehavior : MonoBehaviour
     }
     public void BoundToDialogue()
     {
-        Transform NPCTransform = PlayerTransform.GetComponentInChildren<DialoguePlayerDetect>().NPCTrasform;
+        // мне лень менять, короче теперь не координаты НПС, а координаты объекта, на котором и есть диалог(при настройки учитывать это), суть не меняет.
+        Transform NPCTransform = PlayerTransform.GetComponentInChildren<DialoguePlayerDetect>().DialogueObject.transform;
         if (NPCTransform == null)
         {
             BoundToPlayer();
@@ -63,11 +66,14 @@ public class CameraBehavior : MonoBehaviour
     public void IfCameraSpawnedAfterBorder()
     {
         float PosX = Mathf.Clamp(transform.position.x, leftBorder, rightBorder);
-        transform.position = new Vector3(PosX, transform.position.y, FixedPositionZ);
+        float PosY = Mathf.Clamp(transform.position.y, downBorder, upBorder);
+        transform.position = new Vector3(PosX, PosY, FixedPositionZ);
     }
     public void GetBordersData(DataForBorders DFB)
     {
         leftBorder = DFB.LeftBorder;
         rightBorder = DFB.RightBorder;
+        upBorder = DFB.UpBorder;
+        downBorder = DFB.DownBorder;
     }
 }
