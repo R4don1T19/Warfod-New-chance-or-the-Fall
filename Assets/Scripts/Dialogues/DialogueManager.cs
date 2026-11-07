@@ -116,7 +116,7 @@ public class DialogueManager : MonoBehaviour
 
         TypeCoroutine = null; //лучше временно убрать(по подсказке)
     }
-    public void EndDialogue()
+    public void EndDialogue(GameObject objectToDestroy)
     {
         LineCount = 0;
         NodeCount = 0;
@@ -125,5 +125,6 @@ public class DialogueManager : MonoBehaviour
 
         PlayerBaseMovement.Instance.enabled = true;
         CameraBehavior.Instance.CameraBindedToDialogue = false;
+        Destroy(objectToDestroy);
     }
 }

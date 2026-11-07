@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DialogueNPC : MonoBehaviour
+public class DialogueObject : MonoBehaviour
 {
     public DialoguesGraph Dialogue { get { return dialogue; } }
     [SerializeField] private DialoguesGraph dialogue;

@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class DialoguePlayerDetect : MonoBehaviour
 {
-    public Transform NPCTrasform { get { return npctransform; } }
+    public GameObject DialogueObject { get {  return dialogueObject; }  }
     [SerializeField] private DialoguesGraph CurrentDialogue;
     [SerializeField] private bool ReadyToTalk = false;
-    private Transform npctransform;
+    private GameObject dialogueObject;
     private void Update()
     {
         if (GameplayLock.Instance.IsBusy) return;
@@ -13,7 +13,7 @@ public class DialoguePlayerDetect : MonoBehaviour
         if (DialogueManager.Instance.TimeToEndDialogue)
         {
             if (Input.GetKeyDown(KeyCode.E))
-                DialogueManager.Instance.EndDialogue();
+                DialogueManager.Instance.EndDialogue(dialogueObject);
         }
         else if (ReadyToTalk)
         {
@@ -27,18 +27,18 @@ public class DialoguePlayerDetect : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("NPC"))
+        if (collision.CompareTag("DialogueObject"))
         {
-            npctransform = collision.transform;
-            CurrentDialogue = collision.GetComponent<DialogueNPC>().Dialogue;
+            dialogueObject = collision.gameObject;
+            CurrentDialogue = collision.GetComponent<DialogueObject>().Dialogue;
             ReadyToTalk = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("NPC"))
+        if (collision.CompareTag("DialogueObject"))
         {
-            npctransform = null;
+            dialogueObject = null;
             CurrentDialogue = null;
             ReadyToTalk = false;
         }
