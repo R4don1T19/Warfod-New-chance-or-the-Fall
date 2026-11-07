@@ -1716,12 +1716,20 @@ PrefabInstance:
       value: BorderData
       objectReference: {fileID: 0}
     - target: {fileID: 7244174870033899707, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: upBorder
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244174870033899707, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
+      propertyPath: downBorder
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244174870033899707, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
       propertyPath: leftBorder
-      value: -5
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 7244174870033899707, guid: 0cbf875650af3984fb6da5556ead6472, type: 3}
       propertyPath: rightBorder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
