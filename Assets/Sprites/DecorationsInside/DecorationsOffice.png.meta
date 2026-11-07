@@ -222,6 +222,160 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 11
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a347a68583ad4c64680a85ca7f4ca4fe
+      internalID: 1530148611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 9
+        width: 11
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870cb7e262585d342baa5cd10f7ba9b1
+      internalID: 930889076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 9
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713065119e6fa1846813d5d2d88736c8
+      internalID: -149797727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficeFlower1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 7
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e253b596d5470e74cb51aa357bb09f13
+      internalID: 1743152672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficeFlower2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 8
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0f2cefed48bc54d8826cce9a052851
+      internalID: -459513833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OfficeFlower3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 8
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d42518460627d54a915dfde532f8eb9
+      internalID: 475243150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 46
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c92248b6cc43b84b93f51a740abbba0
+      internalID: -1584918722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -241,6 +395,13 @@ TextureImporter:
       DecorationsOffice_2: -1785769080
       DecorationsOffice_3: 1283840856
       DecorationsOffice_4: -1604201750
+      DecorationsOffice_5: 1530148611
+      DecorationsOffice_6: 930889076
+      DecorationsOffice_7: -149797727
+      DecorationsOffice_8: -1584918722
+      OfficeFlower1: 1743152672
+      OfficeFlower2: -459513833
+      OfficeFlower3: 475243150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

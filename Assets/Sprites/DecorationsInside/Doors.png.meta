@@ -120,9 +120,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 256
-        width: 30
-        height: 55
+        y: 248
+        width: 34
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,9 +142,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 198
-        width: 30
-        height: 55
+        y: 181
+        width: 34
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +163,10 @@ TextureImporter:
       name: Doors_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 139
+        x: 40
+        y: 113
         width: 5
-        height: 55
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,10 +185,10 @@ TextureImporter:
       name: Doors_WorkCorridor_A
       rect:
         serializedVersion: 2
-        x: 59
-        y: 256
-        width: 30
-        height: 55
+        x: 67
+        y: 248
+        width: 35
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: Doors_WorkCorridor_AS
       rect:
         serializedVersion: 2
-        x: 59
-        y: 198
-        width: 30
-        height: 55
+        x: 67
+        y: 181
+        width: 35
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: Doors_WorkCorridor_ B
       rect:
         serializedVersion: 2
-        x: 91
-        y: 198
+        x: 104
+        y: 181
         width: 5
-        height: 55
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,11 +252,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 139
-        width: 30
-        height: 55
+        y: 113
+        width: 34
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
