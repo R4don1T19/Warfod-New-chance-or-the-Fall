@@ -49,15 +49,17 @@ public class CameraBehavior : MonoBehaviour
     }
     public void BoundToDialogue()
     {
-        // мне лень менять, короче теперь не координаты НПС, а координаты объекта, на котором и есть диалог(при настройки учитывать это), суть не меняет.
-        Transform NPCTransform = PlayerTransform.GetComponentInChildren<DialoguePlayerDetect>().DialogueObject.transform;
-        if (NPCTransform == null)
+        var detector = PlayerTransform.GetComponentInChildren<DialoguePlayerDetect>();
+
+        // Проверяем сам детектор и его свойство DialogueObject
+        if (detector == null || detector.DialogueObject == null)
         {
             BoundToPlayer();
             return;
-        }    
-        Vector3 npcPosition = new Vector3(NPCTransform.position.x, NPCTransform.position.y + FixedPositionYB, FixedPositionZ);
+        }
+        Transform NPCTransform = detector.DialogueObject.transform;
 
+        Vector3 npcPosition = new Vector3(NPCTransform.position.x, NPCTransform.position.y + FixedPositionYB, FixedPositionZ);
         Vector3 PlayerPosition = new Vector3(PlayerTransform.position.x, PlayerTransform.position.y + FixedPositionYB, FixedPositionZ);
 
         Vector3 PositionBetweenAandB = Vector3.Lerp(npcPosition, PlayerPosition, FixedPositionForLerp);

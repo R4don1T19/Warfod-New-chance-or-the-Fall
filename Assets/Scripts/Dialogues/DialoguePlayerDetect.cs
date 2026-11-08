@@ -2,10 +2,17 @@ using UnityEngine;
 
 public class DialoguePlayerDetect : MonoBehaviour
 {
-    public GameObject DialogueObject { get {  return dialogueObject; }  }
+    public GameObject DialogueObject
+    {
+        get
+        {
+            if (dialogueObject == null) return null;
+            return dialogueObject;
+        }
+    }
     [SerializeField] private DialoguesGraph CurrentDialogue;
     [SerializeField] private bool ReadyToTalk = false;
-    private GameObject dialogueObject;
+    [SerializeField] private GameObject dialogueObject;
     private void Update()
     {
         if (GameplayLock.Instance.IsBusy) return;
