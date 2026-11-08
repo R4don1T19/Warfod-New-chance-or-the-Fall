@@ -122,12 +122,12 @@ TextureImporter:
       name: IconsUI_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 4
         y: 113
-        width: 14
+        width: 18
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -149,7 +149,7 @@ TextureImporter:
         width: 18
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,12 +166,12 @@ TextureImporter:
       name: IconsUI_2
       rect:
         serializedVersion: 2
-        x: 53
+        x: 51
         y: 113
-        width: 14
+        width: 18
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,11 +184,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: IconsUI_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 98
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e5b23bd4ede624e9c7e6f14b5fc1a6
+      internalID: -200915855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b7d0819c1b3f0bf4aaf05f4f35fab6bb
     internalID: 0
     vertices: []
     indices: 
@@ -201,6 +223,7 @@ TextureImporter:
       IconsUI_0: 8136128231877117135
       IconsUI_1: 5867741536060620524
       IconsUI_2: -1108182313213868328
+      IconsUI_3: -200915855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
