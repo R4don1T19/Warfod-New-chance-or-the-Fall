@@ -3,6 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LocationsTransit : MonoBehaviour
 {
+    public static LocationsTransit Instance;
+    public bool CutSceneTransit = false;
+    private Transform CutSceneTransitTarget;
     private PlayerDoorDetect PDD;
     private Transform SpawnerTransform;
     private Rigidbody2D rb;
@@ -14,8 +17,18 @@ public class LocationsTransit : MonoBehaviour
     private float WhiteFE = 0f;
     private float FixedTimeForFE = 1f;
     private string FixedScene;
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            return;
+        }
+        Destroy(gameObject);
+    }
     private void Start()
     {
+        //CutSceneTransitTarget = FindAnyObjectByType<SceneChangeTarget>().transform;
         PDD = PlayerBaseMovement.Instance.GetComponentInChildren<PlayerDoorDetect>();
     }
     private void Update()
@@ -69,6 +82,14 @@ public class LocationsTransit : MonoBehaviour
         DataForBorders DFB = FindAnyObjectByType<DataForBorders>();
         CameraBehavior.Instance.IfCameraSpawnedAfterBorder();
         CameraBehavior.Instance.GetBordersData(DFB);
+
+        if (CutSceneTransit)
+        {
+            PlayerBaseMovement.Instance.enabled = true;
+            PlayerBaseMovement.Instance.transform.position = CutSceneTransitTarget.transform.position;
+            CutSceneTransit = false;
+            return;
+        }
 
         if (HasTransit)
         {
