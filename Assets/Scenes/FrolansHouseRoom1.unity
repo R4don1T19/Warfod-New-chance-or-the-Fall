@@ -710,6 +710,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8748590513596760881, guid: 9105829591fba21498e40c82a4b8305b, type: 3}
   m_PrefabInstance: {fileID: 113857781}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &698299857 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7780182405234041963, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
+  m_PrefabInstance: {fileID: 8094631399862919287}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575742fb83736bc499eda604a9c9a687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraFadeEffectCutscene
 --- !u!1 &709024411
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,6 +2148,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: CutSceneExample
       objectReference: {fileID: 0}
+    - target: {fileID: 8746263429144587344, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
+      propertyPath: steps.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8746263429144587344, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
+      propertyPath: 'steps.Array.data[8]'
+      value: 
+      objectReference: {fileID: 698299857}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
