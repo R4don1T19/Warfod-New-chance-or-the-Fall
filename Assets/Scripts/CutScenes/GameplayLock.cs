@@ -31,6 +31,7 @@ public class GameplayLock : MonoBehaviour
         PlayerBaseMovement.Instance.enabled = false;
         CameraBehavior.Instance.CameraBindedToDialogue = true;
         LTSd.gameObject.SetActive(false);
+        IconsUIEventTrigger.OnChangeIconUI("CutScene");
 
         yield return routine;
 
@@ -39,6 +40,6 @@ public class GameplayLock : MonoBehaviour
         CameraBehavior.Instance.CameraBindedToDialogue = false;
         CameraBehavior.Instance.CameraInCutscene = false;
         IsBusy = false;
-        Debug.Log("Now, Character is free to move!");
+        IconsUIEventTrigger.OnChangeIconUI("Empty");
     }
 }

@@ -64,11 +64,12 @@ public class DialogueManager : MonoBehaviour
         DialogueBoxUI.SetActive(false);
         IsPlaying = false;
     }
-    public void StartDialogue(DialoguesGraph dialogue)
+    public void StartDialogue(DialoguesGraph dialogue) // Нужно изменить метод на корутину(решить мерцание UI-иконки)
     {
         CameraBehavior.Instance.CameraBindedToDialogue = true;
         PlayerBaseMovement.Instance.enabled = false;
         DialogueBoxUI.SetActive(true);
+        IconsUIEventTrigger.OnChangeIconUI("Dialogue");
 
         DialoguesNode Node = dialogue.Nodes[NodeCount];
         DialoguesLine Line = Node.Lines[LineCount];
@@ -125,6 +126,7 @@ public class DialogueManager : MonoBehaviour
 
         PlayerBaseMovement.Instance.enabled = true;
         CameraBehavior.Instance.CameraBindedToDialogue = false;
+        IconsUIEventTrigger.OnChangeIconUI("Empty");
         Destroy(objectToDestroy);
     }
 }

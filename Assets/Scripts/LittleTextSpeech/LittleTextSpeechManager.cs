@@ -29,6 +29,7 @@ public class LittleTextSpeechManager : MonoBehaviour
     private IEnumerator StartLTS(LittleTextSpeechGraph LTSlocal, GameObject LTSObject)
     {
         textFieldGameObject.SetActive(true);
+        IconsUIEventTrigger.OnChangeIconUI("LTS");
         PlayerBaseMovement.Instance.enabled = false;
         foreach (LittleTextSpeechLine node in LTSlocal.Graph)
         {
@@ -39,6 +40,7 @@ public class LittleTextSpeechManager : MonoBehaviour
         isReady = false;
         textFieldGameObject.SetActive(false);
         PlayerBaseMovement.Instance.enabled = true;
+        IconsUIEventTrigger.OnChangeIconUI("Empty");
         TypeCoroutine = null; //лучше временно убрать(по подсказке)
         LTSObject.SetActive(false);
     }
