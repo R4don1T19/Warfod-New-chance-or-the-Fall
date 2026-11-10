@@ -1554,6 +1554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80a427f69532c074ca4c13befadd9bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocationsTransit
+  CutSceneTransit: 0
 --- !u!114 &1077532732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1599,6 +1600,8 @@ MonoBehaviour:
   SpeakerSpeech: {fileID: 1439004236}
   FrolanImage: {fileID: 408197244}
   OpponentImage: {fileID: 1578779019}
+  Simple: {fileID: 0}
+  Official: {fileID: 0}
 --- !u!114 &1077532735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1611,6 +1614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27cc31f238072ab4ba1ea903c4d855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameplayLock
+  LTSd: {fileID: 0}
 --- !u!4 &1121999051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5905779826954764063, guid: 77b377080443d2a40907e29e706bd0bf, type: 3}
@@ -4109,6 +4113,10 @@ PrefabInstance:
     - target: {fileID: 848595377854775477, guid: a981cdf023e58ee4ea6b4d556e3d8688, type: 3}
       propertyPath: PlayerTransform
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3919712274920469115, guid: a981cdf023e58ee4ea6b4d556e3d8688, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
