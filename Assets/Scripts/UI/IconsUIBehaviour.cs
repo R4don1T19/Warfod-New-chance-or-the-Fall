@@ -20,6 +20,11 @@ public class IconsUIBehaviour : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            IconsUIEventTrigger.GetIconUI -= SetUIIcon;
+            IconsUIEventTrigger.GetIconUI += SetUIIcon;
+
+            // Гарантируем, что на старте новой сцены иконка не считает себя "занятой" корутиной
+            CoroutineUI = null;
             return;
         }
         Destroy(gameObject);

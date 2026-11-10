@@ -8,7 +8,6 @@ public class LocationsTransit : MonoBehaviour
     private PlayerDoorDetect PDD;
     private Transform SpawnerTransform;
     private Rigidbody2D rb;
-    private Vector2 CameraPositionBeforeTransit;
     private string ToID;
     private string FromID;
     private bool HasTransit;
@@ -27,7 +26,6 @@ public class LocationsTransit : MonoBehaviour
     }
     private void Start()
     {
-        //CutSceneTransitTarget = FindAnyObjectByType<SceneChangeTarget>().transform;
         PDD = PlayerBaseMovement.Instance.GetComponentInChildren<PlayerDoorDetect>();
     }
     private void Update()
@@ -79,17 +77,19 @@ public class LocationsTransit : MonoBehaviour
     private void OnSceneLoad(Scene scene, LoadSceneMode mode)
     {
         DataForBorders DFB = FindAnyObjectByType<DataForBorders>();
+        if (DFB != null)
+            CameraBehavior.Instance.GetBordersData(DFB);
         CameraBehavior.Instance.IfCameraSpawnedAfterBorder();
-        CameraBehavior.Instance.GetBordersData(DFB);
 
-        if(CutSceneTransit)
+        if (CutSceneTransit)
         {
-            if (PlayerBaseMovement.Instance != null)
-                Destroy(PlayerBaseMovement.Instance.gameObject);
-
-            if (CameraBehavior.Instance != null)
-                Destroy(CameraBehavior.Instance.gameObject);
-
+            GameObject Spawner = GameObject.Find("CutSceneSpawner");
+            if (Spawner == null)
+            {
+                Debug.LogError("В загруженной сцене нет SceneChangeTarget!");
+                return;
+            }
+            PlayerBaseMovement.Instance.ChangePositionOnTransit(Spawner.transform.position);
             CutSceneTransit = false;
             HasTransit = false;
             return;

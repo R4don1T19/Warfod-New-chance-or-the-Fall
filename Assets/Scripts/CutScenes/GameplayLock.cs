@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameplayLock : MonoBehaviour
 {
@@ -18,28 +19,51 @@ public class GameplayLock : MonoBehaviour
         Instance = this;
     }
 
-    public void Play(IEnumerator routine)
+    // Передаем список шагов напрямую, а не корутину уничтожаемого объекта!
+    public void PlayCutscene(List<CutSceneStep> steps)
     {
         if (!IsBusy)
         {
-            StartCoroutine(Run(routine));
+            StartCoroutine(RunCutscene(steps));
         }
     }
-    private IEnumerator Run(IEnumerator routine)
+
+    private IEnumerator RunCutscene(List<CutSceneStep> steps)
     {
         IsBusy = true;
-        PlayerBaseMovement.Instance.enabled = false;
-        CameraBehavior.Instance.CameraBindedToDialogue = true;
-        LTSd.gameObject.SetActive(false);
+        if (PlayerBaseMovement.Instance != null) PlayerBaseMovement.Instance.enabled = false;
+        if (CameraBehavior.Instance != null) CameraBehavior.Instance.CameraBindedToDialogue = true;
+        if (LTSd != null) LTSd.gameObject.SetActive(false);
+
         IconsUIEventTrigger.OnChangeIconUI("CutScene");
 
-        yield return routine;
+        // Выполняем шаги катсцены здесь — в объекте, который НЕ уничтожается при смене сцены!
+        foreach (var step in steps)
+        {
+            if (step != null)
+            {
+                yield return step.Run();
+            }
+        }
 
-        PlayerBaseMovement.Instance.enabled = true;
-        LTSd.gameObject.SetActive(true);
-        CameraBehavior.Instance.CameraBindedToDialogue = false;
-        CameraBehavior.Instance.CameraInCutscene = false;
+        Debug.Log("CutScene is over!");
+
+        if (PlayerBaseMovement.Instance != null) PlayerBaseMovement.Instance.enabled = true;
+        if (LTSd != null) LTSd.gameObject.SetActive(true);
+        if (CameraBehavior.Instance != null)
+        {
+            CameraBehavior.Instance.CameraBindedToDialogue = false;
+            CameraBehavior.Instance.CameraInCutscene = false;
+        }
+
         IsBusy = false;
         IconsUIEventTrigger.OnChangeIconUI("Empty");
+    }
+
+    // Метод для принудительного сброса блокировки (вызовем его перед загрузкой сцены)
+    public void ResetLockOnSceneChange()
+    {
+        StopAllCoroutines(); // Останавливаем текущую катсцену, так как локация меняется
+        IsBusy = false;
     }
 }
