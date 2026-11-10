@@ -5,7 +5,6 @@ public class LocationsTransit : MonoBehaviour
 {
     public static LocationsTransit Instance;
     public bool CutSceneTransit = false;
-    private Transform CutSceneTransitTarget;
     private PlayerDoorDetect PDD;
     private Transform SpawnerTransform;
     private Rigidbody2D rb;
@@ -83,14 +82,18 @@ public class LocationsTransit : MonoBehaviour
         CameraBehavior.Instance.IfCameraSpawnedAfterBorder();
         CameraBehavior.Instance.GetBordersData(DFB);
 
-        if (CutSceneTransit)
+        if(CutSceneTransit)
         {
-            PlayerBaseMovement.Instance.enabled = true;
-            PlayerBaseMovement.Instance.transform.position = CutSceneTransitTarget.transform.position;
+            if (PlayerBaseMovement.Instance != null)
+                Destroy(PlayerBaseMovement.Instance.gameObject);
+
+            if (CameraBehavior.Instance != null)
+                Destroy(CameraBehavior.Instance.gameObject);
+
             CutSceneTransit = false;
+            HasTransit = false;
             return;
         }
-
         if (HasTransit)
         {
             FindTheCorrectDoor(ToID);
