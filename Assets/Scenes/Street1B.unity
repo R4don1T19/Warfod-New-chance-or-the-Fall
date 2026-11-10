@@ -1221,7 +1221,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 309975655282216740, guid: c5ceb65fdd015584db16d2f03d0de4c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.566154
+      value: -7.49
       objectReference: {fileID: 0}
     - target: {fileID: 309975655282216740, guid: c5ceb65fdd015584db16d2f03d0de4c9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1271,11 +1271,6 @@ PrefabInstance:
 --- !u!95 &733239052 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2375025142085761733, guid: c5ceb65fdd015584db16d2f03d0de4c9, type: 3}
-  m_PrefabInstance: {fileID: 692168654}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &733239054 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3580557712619929858, guid: c5ceb65fdd015584db16d2f03d0de4c9, type: 3}
   m_PrefabInstance: {fileID: 692168654}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &904556629 stripped
@@ -2099,7 +2094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c51bf8498708915419a153afbb3bedb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCStep
-  actor: {fileID: 733239054}
+  actor: {fileID: 489990452}
   target: {fileID: 1741028586}
   animator: {fileID: 733239052}
   Trigger: Run
@@ -3607,7 +3602,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838146517519044204, guid: a981cdf023e58ee4ea6b4d556e3d8688, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
