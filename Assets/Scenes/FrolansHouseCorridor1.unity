@@ -1662,7 +1662,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1355295756}
@@ -1754,7 +1754,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 243055949}
@@ -2095,6 +2095,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: DialogueObject
       objectReference: {fileID: 0}
+    - target: {fileID: 4330422588013752871, guid: f6fa5badca92a3a42897ada0fbf6d1a5, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 8d33f9e19e945aa49b06f28ec71e7095, type: 2}
     - target: {fileID: 7795575779358395863, guid: f6fa5badca92a3a42897ada0fbf6d1a5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.92
