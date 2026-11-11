@@ -31,6 +31,9 @@ public class IconsUIBehaviour : MonoBehaviour
     }
     private void SetUIIcon(string icon)
     {
+        if (this == null || gameObject == null || image == null)
+            return;
+                               
         if (CoroutineUI != null)
             return;
 
@@ -62,6 +65,9 @@ public class IconsUIBehaviour : MonoBehaviour
 
         while (durationTime > currentTime)
         {
+            if (this == null || image == null) yield break;
+
+
             currentTime += Time.deltaTime;
             float alpha = Mathf.Lerp(0f, 1f, currentTime / durationTime);
 
@@ -73,10 +79,17 @@ public class IconsUIBehaviour : MonoBehaviour
     }    
     private void OnEnable()
     {
-        IconsUIEventTrigger.GetIconUI += SetUIIcon;
+        if (Instance == this)
+        {
+            IconsUIEventTrigger.GetIconUI -= SetUIIcon;
+            IconsUIEventTrigger.GetIconUI += SetUIIcon;
+        }
     }
     private void OnDisable()
     {
-        IconsUIEventTrigger.GetIconUI -= SetUIIcon;
+        if (Instance == this)
+        {
+            IconsUIEventTrigger.GetIconUI -= SetUIIcon;
+        }
     }
 }
