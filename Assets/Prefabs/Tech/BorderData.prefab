@@ -46,3 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DataForBorders
   leftBorder: -35
   rightBorder: 22
+  upBorder: 2
+  downBorder: -1
