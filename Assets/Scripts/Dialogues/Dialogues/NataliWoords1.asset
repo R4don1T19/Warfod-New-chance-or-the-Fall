@@ -81,7 +81,7 @@ MonoBehaviour:
       FirstLine: 0
       IsSpecialFontUsed: 0
     - line: . . .
-      name: "\u0424\u0440\u043E\u043B\u0430\u043D"
+      name: 
       FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
       OpponentSprite: {fileID: 7808072162285160972, guid: 40fd049a86fa637449c54a32b86f4442, type: 3}
       FirstLine: 0

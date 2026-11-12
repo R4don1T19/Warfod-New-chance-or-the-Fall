@@ -23,7 +23,7 @@ MonoBehaviour:
       FirstLine: 0
       IsSpecialFontUsed: 0
     - line: . . .
-      name: "\u041D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u044B\u0439"
+      name: 
       FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
       OpponentSprite: {fileID: 8505453282892827502, guid: a355ccc5c94a6e84cb33ad28d9b657ea, type: 3}
       FirstLine: 0
@@ -72,7 +72,7 @@ MonoBehaviour:
       FirstLine: 0
       IsSpecialFontUsed: 0
     - line: . . .
-      name: "\u0424\u0440\u043E\u043B\u0430\u043D"
+      name: 
       FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
       OpponentSprite: {fileID: -402642306464648069, guid: cc107949aef4c604a9b3902a19154e2e, type: 3}
       FirstLine: 0
@@ -105,11 +105,13 @@ MonoBehaviour:
       FirstLine: 0
       IsSpecialFontUsed: 0
     - line: "\u041D\u043E \u0424\u0440\u043E\u043B\u0430\u043D \u0437\u0430\u043F\u043E\u0434\u043E\u0437\u0440\u0438\u043B
-        \u0432 \u043D\u0435\u043C \u043A\u043E\u043C\u043F\u0440\u043E\u043C\u0430\u0442\u0447\u0438\u043A\u0430."
+        \u0432 \u043D\u0435\u043C \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430
+        \u0441 \u043D\u0435 \u0441\u0430\u043C\u044B\u043C\u0438 \u043B\u0443\u0447\u0448\u0438\u043C\u0438
+        \u043D\u0430\u043C\u0435\u0440\u0435\u043D\u0438\u044F\u043C\u0438."
       name: <.>
       FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
       OpponentSprite: {fileID: -402642306464648069, guid: cc107949aef4c604a9b3902a19154e2e, type: 3}
-      FirstLine: 0
+      FirstLine: 1
       IsSpecialFontUsed: 0
     - line: "\u0412\u0441\u0435\u0433\u043E \u0434\u043E\u0431\u0440\u043E\u0433\u043E,
         \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u0438\u0434\u0442\u0438
