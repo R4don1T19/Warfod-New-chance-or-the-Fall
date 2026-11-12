@@ -21,8 +21,11 @@ EditorBuildSettings:
     path: Assets/Scenes/FrolansHouseCorridor3.unity
     guid: e5acda94f9307344ca390d4c16a6e504
   - enabled: 1
-    path: Assets/Scenes/FrolansWorkCorridor.unity
+    path: Assets/Scenes/FrolansWorkCorridor1A.unity
     guid: 38175d43d97e9b0479c2a3802327ae4f
+  - enabled: 1
+    path: Assets/Scenes/FrolansWorkCorridor1B.unity
+    guid: 6e901764541e1174c907d2cba4e8b1f5
   - enabled: 1
     path: Assets/Scenes/FrolansHouseRoom1.unity
     guid: bcbbf48d040b3d14db490b03fa9d6ef0
@@ -33,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/FrolansHouseRoom3.unity
     guid: 7f668e0261d482443bdcb3a727ceae42
   - enabled: 1
-    path: Assets/Scenes/FrolansWorkOffice.unity
+    path: Assets/Scenes/FrolansWorkOffice1A.unity
     guid: f5f4203e5e297c24790c3d5b04472c3e
+  - enabled: 1
+    path: Assets/Scenes/FrolansWorkOffice1B.unity
+    guid: 376d1b09ee825e348899296382555302
   m_configObjects: {}
