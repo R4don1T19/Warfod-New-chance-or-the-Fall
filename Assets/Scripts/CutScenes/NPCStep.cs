@@ -9,8 +9,14 @@ public class NPCStep : CutSceneStep
     [SerializeField] private Animator animator;
     [SerializeField] private string Trigger;
     [SerializeField] private float speed = 2f;
+    public bool isPlayer;
     public override IEnumerator Run()
     {
+        if (isPlayer)
+        {
+            actor = PlayerBaseMovement.Instance.transform;
+            animator = PlayerBaseMovement.Instance.GetComponentInChildren<Animator>();
+        }
         while (Vector2.Distance(actor.position, target.position) > 0.02f)
         {
             float direction = target.position.x - actor.position.x;
