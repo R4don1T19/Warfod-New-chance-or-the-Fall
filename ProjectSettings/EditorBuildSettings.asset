@@ -12,11 +12,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Street1B.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/Street2A.unity
+    guid: ada1980800a0ee342bb8b502537f53f7
+  - enabled: 1
+    path: Assets/Scenes/Street2B.unity
+    guid: 92f8325dd5e4a2547815e65ea2af5b51
+  - enabled: 1
+    path: Assets/Scenes/Street2C.unity
+    guid: c4ccd9d40a6da974aace6eb06491b293
+  - enabled: 1
     path: Assets/Scenes/FrolansHouseCorridor1.unity
     guid: 03ddc4c6a1b9de042a5971a618804f97
   - enabled: 1
-    path: Assets/Scenes/FrolansHouseCorridor2.unity
+    path: Assets/Scenes/FrolansHouseCorridor2A.unity
     guid: 63fe3adfd5b74d840a96ca5260cbb54c
+  - enabled: 1
+    path: Assets/Scenes/FrolansHouseCorridor2B.unity
+    guid: bc440208d1472524583461b3986e6022
   - enabled: 1
     path: Assets/Scenes/FrolansHouseCorridor3.unity
     guid: e5acda94f9307344ca390d4c16a6e504
@@ -26,6 +38,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FrolansWorkCorridor1B.unity
     guid: 6e901764541e1174c907d2cba4e8b1f5
+  - enabled: 1
+    path: Assets/Scenes/FrolansWorkCorridor2A.unity
+    guid: 3243b7de4cd3a5945a8a8fce2d831625
+  - enabled: 1
+    path: Assets/Scenes/FrolansWorkCorridor2B.unity
+    guid: 7f9d162f6ffb3744fb9f94075b8e252d
   - enabled: 1
     path: Assets/Scenes/FrolansHouseRoom1.unity
     guid: bcbbf48d040b3d14db490b03fa9d6ef0
@@ -41,4 +59,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FrolansWorkOffice1B.unity
     guid: 376d1b09ee825e348899296382555302
+  - enabled: 1
+    path: Assets/Scenes/FrolansWorkOffice2A.unity
+    guid: 5c701c47173aa6140a8619ecdc3ec74f
+  - enabled: 1
+    path: Assets/Scenes/FrolansWorkOffice2B.unity
+    guid: 1c71ea8cd5704e2499a276094b787389
   m_configObjects: {}
