@@ -116,8 +116,8 @@ TextureImporter:
       name: DecorationsOffice_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 81
+        x: 0
+        y: 98
         width: 56
         height: 95
       alignment: 0
@@ -138,8 +138,8 @@ TextureImporter:
       name: DecorationsOffice_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 82
+        x: 6
+        y: 3
         width: 26
         height: 78
       alignment: 0
@@ -161,9 +161,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 115
-        y: 140
+        y: 60
         width: 58
-        height: 48
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,7 +183,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 178
-        y: 139
+        y: 61
         width: 17
         height: 51
       alignment: 0
@@ -204,10 +204,10 @@ TextureImporter:
       name: DecorationsOffice_4
       rect:
         serializedVersion: 2
-        x: 102
-        y: 86
+        x: 40
+        y: 52
         width: 47
-        height: 43
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,8 +226,8 @@ TextureImporter:
       name: DecorationsOffice_5
       rect:
         serializedVersion: 2
-        x: 10
-        y: 9
+        x: 60
+        y: 2
         width: 11
         height: 50
       alignment: 0
@@ -248,8 +248,8 @@ TextureImporter:
       name: DecorationsOffice_6
       rect:
         serializedVersion: 2
-        x: 26
-        y: 9
+        x: 44
+        y: 2
         width: 11
         height: 50
       alignment: 0
@@ -270,8 +270,8 @@ TextureImporter:
       name: DecorationsOffice_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 9
+        x: 78
+        y: 2
         width: 17
         height: 12
       alignment: 0
@@ -292,8 +292,8 @@ TextureImporter:
       name: OfficeFlower1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 7
+        x: 100
+        y: 0
         width: 33
         height: 59
       alignment: 0
@@ -314,8 +314,8 @@ TextureImporter:
       name: OfficeFlower2
       rect:
         serializedVersion: 2
-        x: 114
-        y: 8
+        x: 135
+        y: 1
         width: 33
         height: 59
       alignment: 0
@@ -336,8 +336,8 @@ TextureImporter:
       name: OfficeFlower3
       rect:
         serializedVersion: 2
-        x: 148
-        y: 8
+        x: 169
+        y: 1
         width: 33
         height: 59
       alignment: 0
@@ -358,12 +358,12 @@ TextureImporter:
       name: DecorationsOffice_8
       rect:
         serializedVersion: 2
-        x: 50
-        y: 46
+        x: 76
+        y: 21
         width: 19
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -372,6 +372,138 @@ TextureImporter:
       bones: []
       spriteID: 7c92248b6cc43b84b93f51a740abbba0
       internalID: -1584918722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 78
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d75bfd78cc16f4aa27a2a5db9c790f
+      internalID: 436492093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 71
+        width: 15
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af110a16a73fdb45b28365f760d0693
+      internalID: -181970467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_11
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 61
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3feba1ff70f4bb4ea65af4ff14cd75c
+      internalID: 2104863177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 84
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e947be0463224439f906264c9c67ea
+      internalID: 1776791918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 98
+        width: 56
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e872fd3405fe4f459d99ab7425ee2d6
+      internalID: 915917097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DecorationsOffice_14
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 98
+        width: 56
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74461ee088784e45b4e0087966315fe
+      internalID: -1987968196
       vertices: []
       indices: 
       edges: []
@@ -392,6 +524,11 @@ TextureImporter:
     nameFileIdTable:
       DecorationsOffice_0: -4062822473012478422
       DecorationsOffice_1: 2071075180
+      DecorationsOffice_10: -181970467
+      DecorationsOffice_11: 2104863177
+      DecorationsOffice_12: 1776791918
+      DecorationsOffice_13: 915917097
+      DecorationsOffice_14: -1987968196
       DecorationsOffice_2: -1785769080
       DecorationsOffice_3: 1283840856
       DecorationsOffice_4: -1604201750
@@ -399,6 +536,7 @@ TextureImporter:
       DecorationsOffice_6: 930889076
       DecorationsOffice_7: -149797727
       DecorationsOffice_8: -1584918722
+      DecorationsOffice_9: 436492093
       OfficeFlower1: 1743152672
       OfficeFlower2: -459513833
       OfficeFlower3: 475243150
