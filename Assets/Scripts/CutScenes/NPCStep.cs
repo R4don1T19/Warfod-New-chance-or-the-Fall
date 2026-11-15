@@ -7,6 +7,7 @@ public class NPCStep : CutSceneStep
     [SerializeField] private Transform actor;
     [SerializeField] private Transform target;
     [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private string Trigger;
     [SerializeField] private float speed = 2f;
     public bool isPlayer;
@@ -16,15 +17,16 @@ public class NPCStep : CutSceneStep
         {
             actor = PlayerBaseMovement.Instance.transform;
             animator = PlayerBaseMovement.Instance.GetComponentInChildren<Animator>();
+            sprite = PlayerBaseMovement.Instance.GetComponentInChildren<SpriteRenderer>();
         }
         while (Vector2.Distance(actor.position, target.position) > 0.02f)
         {
             float direction = target.position.x - actor.position.x;
 
-            if (direction < -0.01f)
-                actor.rotation = Quaternion.Euler(0, 180, 0);
-            else
-                actor.rotation = Quaternion.identity;
+            if (direction < 0)
+                actor.transform.rotation = Quaternion.Euler(0, 180, 0);
+            else if (direction > 0)
+                actor.transform.rotation = Quaternion.Euler(0, 0, 0);
 
             actor.position = Vector2.MoveTowards(actor.position, target.position, speed * Time.deltaTime);
             animator.SetBool(Trigger, true);
