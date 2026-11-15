@@ -201,11 +201,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5466282683382931914, guid: 2e07c913343e2df4498048513e176ae1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.85
+      value: -10.37
       objectReference: {fileID: 0}
     - target: {fileID: 5466282683382931914, guid: 2e07c913343e2df4498048513e176ae1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.535
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5466282683382931914, guid: 2e07c913343e2df4498048513e176ae1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2060,6 +2060,7 @@ MonoBehaviour:
   actor: {fileID: 0}
   target: {fileID: 1741028586}
   animator: {fileID: 0}
+  sprite: {fileID: 0}
   Trigger: Run
   speed: 3
   isPlayer: 1

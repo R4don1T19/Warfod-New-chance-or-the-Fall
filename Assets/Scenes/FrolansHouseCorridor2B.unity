@@ -1229,6 +1229,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5ce5c5796b7e8a46a15ae4d49d9046e, type: 3}
+--- !u!114 &1063686935 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6971917788839630877, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
+  m_PrefabInstance: {fileID: 2064084342}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4e19f4951cd77e479f6cc17c40dee98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueStep
 --- !u!1001 &1114232972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2210,6 +2221,14 @@ PrefabInstance:
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8746263429144587344, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
+      propertyPath: 'steps.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2064084347}
+    - target: {fileID: 8746263429144587344, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
+      propertyPath: 'steps.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1063686935}
+    - target: {fileID: 8746263429144587344, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
       propertyPath: 'steps.Array.data[2]'
       value: 
       objectReference: {fileID: 2064084346}
@@ -2235,6 +2254,10 @@ PrefabInstance:
       objectReference: {fileID: 2064084343}
     - target: {fileID: 8746263429144587344, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
       propertyPath: 'steps.Array.data[8]'
+      value: 
+      objectReference: {fileID: 662696961}
+    - target: {fileID: 8746263429144587344, guid: 51dfaf7a0d730624da0a01a6e2830d98, type: 3}
+      propertyPath: 'steps.Array.data[9]'
       value: 
       objectReference: {fileID: 662696961}
     m_RemovedComponents: []
