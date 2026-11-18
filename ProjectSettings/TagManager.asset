@@ -10,6 +10,8 @@ TagManager:
   - CameraBorder
   - LTS
   - DialogueObject
+  - NPC
+  - MG
   layers:
   - Default
   - TransparentFX
