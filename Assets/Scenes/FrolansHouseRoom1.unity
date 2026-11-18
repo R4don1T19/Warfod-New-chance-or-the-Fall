@@ -395,6 +395,10 @@ PrefabInstance:
       propertyPath: LTSd
       value: 
       objectReference: {fileID: 232289844}
+    - target: {fileID: 6963859184769919413, guid: eb920c29d148ab949be7f44d690a6ac4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7454927069197501783, guid: eb920c29d148ab949be7f44d690a6ac4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
@@ -898,6 +902,10 @@ PrefabInstance:
     - target: {fileID: 2041053479183033650, guid: c5ceb65fdd015584db16d2f03d0de4c9, type: 3}
       propertyPath: m_Name
       value: MainPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4432453338236877054, guid: c5ceb65fdd015584db16d2f03d0de4c9, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
