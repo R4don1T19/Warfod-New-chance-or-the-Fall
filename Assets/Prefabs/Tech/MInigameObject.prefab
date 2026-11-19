@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1463178349777777175}
   m_Layer: 0
   m_Name: MInigameObject
-  m_TagString: Untagged
+  m_TagString: MG
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93a1507f3ded4cf4aaf3ec88e9453520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinigameObject
-  sample: {fileID: 11400000, guid: 87c680b6362c61845ad6e7e7a025c395, type: 2}
+  newspaper:
+    newspaper:
+    - {fileID: 11400000, guid: 87c680b6362c61845ad6e7e7a025c395, type: 2}
+    - {fileID: 11400000, guid: 3e63300b6584b9f4f891561518306e6e, type: 2}
+  count: 0
 --- !u!61 &1463178349777777175
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -76,7 +80,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
