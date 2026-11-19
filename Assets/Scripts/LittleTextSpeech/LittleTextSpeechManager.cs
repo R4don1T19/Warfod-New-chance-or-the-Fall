@@ -26,23 +26,33 @@ public class LittleTextSpeechManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && LTSd.IsReady && TypeCoroutine == null)
             TypeCoroutine = StartCoroutine(StartLTS(LTSd.LTS, LTSd.LTSObject));
     }
-    private IEnumerator StartLTS(LittleTextSpeechGraph LTSlocal, GameObject LTSObject)
+    public IEnumerator StartLTS(LittleTextSpeechGraph LTSlocal, GameObject LTSObject = null, bool isReaction = false)
     {
         textFieldGameObject.SetActive(true);
         IconsUIEventTrigger.OnChangeIconUI("LTS");
+        if (!isReaction)
         PlayerBaseMovement.Instance.enabled = false;
-        foreach (LittleTextSpeechLine node in LTSlocal.Graph)
+        try
         {
-            yield return StartCoroutine(TypeTextLine(node.Speech));
-            if (isReady == true)
-                yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
+            foreach (LittleTextSpeechLine node in LTSlocal.Graph)
+            {
+                yield return StartCoroutine(TypeTextLine(node.Speech));
+                if (isReady == true)
+                    yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
+            }
         }
-        isReady = false;
-        textFieldGameObject.SetActive(false);
-        PlayerBaseMovement.Instance.enabled = true;
-        IconsUIEventTrigger.OnChangeIconUI("Empty");
-        TypeCoroutine = null; //лучше временно убрать(по подсказке)
-        LTSObject.SetActive(false);
+        finally
+        {
+            isReady = false;
+            if (!isReaction)
+            {
+                PlayerBaseMovement.Instance.enabled = true;
+                LTSObject.SetActive(false);
+            }
+            IconsUIEventTrigger.OnChangeIconUI("Empty");
+            textFieldGameObject.SetActive(false);
+            TypeCoroutine = null; //лучше временно убрать(по подсказке
+        }
     }
 
     private IEnumerator TypeTextLine(string line)
