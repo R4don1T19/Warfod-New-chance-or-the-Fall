@@ -1296,6 +1296,18 @@ PrefabInstance:
       propertyPath: count
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4034000051680207756, guid: 738defc8773d0e149b51223df2133fd7, type: 3}
+      propertyPath: newspaper.newspaper.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4034000051680207756, guid: 738defc8773d0e149b51223df2133fd7, type: 3}
+      propertyPath: 'newspaper.newspaper.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 87c680b6362c61845ad6e7e7a025c395, type: 2}
+    - target: {fileID: 4034000051680207756, guid: 738defc8773d0e149b51223df2133fd7, type: 3}
+      propertyPath: 'newspaper.newspaper.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 3e63300b6584b9f4f891561518306e6e, type: 2}
     - target: {fileID: 5632409803952448766, guid: 738defc8773d0e149b51223df2133fd7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.68
