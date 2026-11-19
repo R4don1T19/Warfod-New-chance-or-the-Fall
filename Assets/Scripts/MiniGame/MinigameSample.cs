@@ -5,4 +5,5 @@ public class MinigameSample : ScriptableObject
     public string header;
     public string text;
     public string bottom;
+    public LittleTextSpeechGraph LTS;
 }

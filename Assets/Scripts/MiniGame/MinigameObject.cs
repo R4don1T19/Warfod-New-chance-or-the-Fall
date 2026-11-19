@@ -1,7 +1,7 @@
+using UnityEditor.PackageManager.UI;
 using UnityEngine;
 
 public class MinigameObject : MonoBehaviour
 {
-    public MinigameSample sample;
-    public int count;
+    public MinigameNewsPaper newspaper;
 }

@@ -3,13 +3,12 @@ using UnityEngine;
 public class MinigameDetect : MonoBehaviour
 {
     [SerializeField] private bool isReady = false;
-    [SerializeField] private MinigameSample sample;
-    [SerializeField] private int count;
+    [SerializeField] private MinigameNewsPaper newspaper;
     private void Update()
     {
         if (isReady && Input.GetKeyDown(KeyCode.E))
         {
-            StartCoroutine(MinigameManager.Instance.StartMiniGame(sample, count));
+            StartCoroutine(MinigameManager.Instance.StartMiniGame(newspaper));
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -17,8 +16,7 @@ public class MinigameDetect : MonoBehaviour
         if (collision.CompareTag("MG"))
         {
             isReady = true;
-            sample = collision.GetComponent<MinigameObject>().sample;
-            count = collision.GetComponent<MinigameObject>().count;
+            newspaper = collision.GetComponent<MinigameObject>().newspaper;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -26,8 +24,7 @@ public class MinigameDetect : MonoBehaviour
         if (collision.CompareTag("MG"))
         {
             isReady = false;
-            sample = null;
-            count = 0;
+            newspaper = null;
         }
     }
 }
