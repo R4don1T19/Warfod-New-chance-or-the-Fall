@@ -116,12 +116,12 @@ TextureImporter:
       name: YairisNewspaper_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 0
         y: 0
-        width: 240
-        height: 253
+        width: 256
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: caf94fe9725bdda4ba722a9f5b69e6bd
     internalID: 0
     vertices: []
     indices: 
