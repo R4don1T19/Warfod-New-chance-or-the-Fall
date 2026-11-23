@@ -20,6 +20,10 @@ public class LittleTextSpeechManager : MonoBehaviour
         }
         Destroy(gameObject);
     }
+    private void Start()
+    {
+        textFieldGameObject.SetActive(false);
+    }
 
     private void Update()
     {

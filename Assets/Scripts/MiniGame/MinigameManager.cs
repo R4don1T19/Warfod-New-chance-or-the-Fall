@@ -14,7 +14,7 @@ public class MinigameManager : MonoBehaviour
 
     private void Awake()
     {
-        if(Instance == null)
+        if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
@@ -22,7 +22,11 @@ public class MinigameManager : MonoBehaviour
         }
         Destroy(gameObject);
     }
-    public IEnumerator StartMiniGame(MinigameNewsPaper newspaper)
+    private void Start()
+    {
+        MiniGameUIObject.SetActive(false);
+    }
+    public IEnumerator StartMiniGame(MinigameNewsPaper newspaper, GameObject CutSceneToOn)
     {
         if (IsRunning || newspaper == null) yield break;
 
@@ -30,7 +34,7 @@ public class MinigameManager : MonoBehaviour
         PlayerBaseMovement.Instance.enabled = false;
         Debug.Log("IS WORKING");
         MiniGameUIObject.SetActive(true);
-        try 
+        try
         {
             foreach (MinigameSample news in newspaper.newspaper)
             {
@@ -54,6 +58,7 @@ public class MinigameManager : MonoBehaviour
             ClearLines();
             IsRunning = false;
             MiniGameUIObject.SetActive(false);
+            CutSceneToOn.SetActive(true);
         }
     }
     private void ClearLines()

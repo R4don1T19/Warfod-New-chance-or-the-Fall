@@ -4,11 +4,13 @@ public class MinigameDetect : MonoBehaviour
 {
     [SerializeField] private bool isReady = false;
     [SerializeField] private MinigameNewsPaper newspaper;
+    [SerializeField] private GameObject CutSceneToOn;
+
     private void Update()
     {
         if (isReady && Input.GetKeyDown(KeyCode.E))
         {
-            StartCoroutine(MinigameManager.Instance.StartMiniGame(newspaper));
+            StartCoroutine(MinigameManager.Instance.StartMiniGame(newspaper, CutSceneToOn));
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -16,6 +18,7 @@ public class MinigameDetect : MonoBehaviour
         if (collision.CompareTag("MG"))
         {
             isReady = true;
+            CutSceneToOn = collision.GetComponent<MinigameObject>().CutSceneToOn;
             newspaper = collision.GetComponent<MinigameObject>().newspaper;
         }
     }
@@ -25,6 +28,7 @@ public class MinigameDetect : MonoBehaviour
         {
             isReady = false;
             newspaper = null;
+            CutSceneToOn = null;
         }
     }
 }
