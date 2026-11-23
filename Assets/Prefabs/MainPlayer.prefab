@@ -647,6 +647,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5bdc1e619b3b94fbb4e8b7fd63b98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinigameDetect
+  isReady: 0
+  newspaper:
+    newspaper: []
+  CutSceneToOn: {fileID: 0}
 --- !u!61 &4432453338236877054
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -677,7 +681,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
