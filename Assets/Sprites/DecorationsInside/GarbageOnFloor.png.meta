@@ -237,7 +237,7 @@ TextureImporter:
         width: 12
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,6 +246,138 @@ TextureImporter:
       bones: []
       spriteID: eb709be9db658334290d23d345916ba3
       internalID: -1236241859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 46
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c88494905e53143bc303ed31eb9d2c
+      internalID: 439955747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 50
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f727008bcca197244b73efb10bf3e95c
+      internalID: 562203499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 50
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfc645f458f4954fa07de6af14d23ad
+      internalID: 824268040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 50
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156d0abc7dff3e544822bfb857f910cc
+      internalID: 995467259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_10
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 50
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fce40a6fb0a4c54aacedf25a85d5955
+      internalID: 418219669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 50
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b700828b84b869940ad786b07b8955c7
+      internalID: -932287848
       vertices: []
       indices: 
       edges: []
@@ -266,10 +398,16 @@ TextureImporter:
     nameFileIdTable:
       GarbageOnFloor_0: -4782984938796581944
       GarbageOnFloor_1: -323003979442985958
+      GarbageOnFloor_10: 418219669
+      GarbageOnFloor_11: -932287848
       GarbageOnFloor_2: -7843843595140653080
       GarbageOnFloor_3: 1416525465
       GarbageOnFloor_4: 1301122963
       GarbageOnFloor_5: -1236241859
+      GarbageOnFloor_6: 439955747
+      GarbageOnFloor_7: 562203499
+      GarbageOnFloor_8: 824268040
+      GarbageOnFloor_9: 995467259
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

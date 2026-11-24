@@ -360,6 +360,28 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: WindowsStreet_01
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 68
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6c2830c1e43b442a200ff6d1a21b33
+      internalID: -2047926970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: WindowsStreet_0
       rect:
         serializedVersion: 2
@@ -375,8 +397,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b6c2830c1e43b442a200ff6d1a21b33
-      internalID: -2047926970
+      spriteID: 4f8bf89de90e62345bc9c5775df297e1
+      internalID: -60307442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WindowsStreet_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 68
+        width: 22
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d1f2fe560dafe498c01761a052c14b
+      internalID: -49852530
       vertices: []
       indices: 
       edges: []
@@ -395,10 +439,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WindowsStreet_0: -2047926970
+      WindowsStreet_0: -60307442
+      WindowsStreet_01: -2047926970
       WindowsStreet_0A: 806793451726383159
       WindowsStreet_0B: 2132898359564530030
       WindowsStreet_0C: -5978637127850786046
+      WindowsStreet_1: -49852530
       WindowsStreet_1A: -1078287446268114598
       WindowsStreet_1B: 583544468749416680
       WindowsStreet_1C: -6745884145890133225
