@@ -116,12 +116,12 @@ TextureImporter:
       name: WoodenStairs(A)_0
       rect:
         serializedVersion: 2
-        x: 10
+        x: 3
         y: 85
-        width: 190
+        width: 197
         height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 539904ef231053946b176770b321c45f
     internalID: 0
     vertices: []
     indices: 

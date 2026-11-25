@@ -470,6 +470,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 54
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7183b1628436f84097712baa9b7eed5
+      internalID: -1511153612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GarbageOnFloor_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 59
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf6ae980266b744a92efdc81f94ad1a
+      internalID: 476693099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -492,6 +536,8 @@ TextureImporter:
       GarbageOnFloor_13: -112088058
       GarbageOnFloor_14: -321300111
       GarbageOnFloor_15: 857840212
+      GarbageOnFloor_16: -1511153612
+      GarbageOnFloor_17: 476693099
       GarbageOnFloor_2: -7843843595140653080
       GarbageOnFloor_3: 1416525465
       GarbageOnFloor_4: 1301122963
