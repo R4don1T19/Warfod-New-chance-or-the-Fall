@@ -22,11 +22,20 @@ public class NPCStep : CutSceneStep
         while (Vector2.Distance(actor.position, target.position) > 0.02f)
         {
             float direction = target.position.x - actor.position.x;
+            // Порог для определения направления — чтобы не дёргался на месте
+            const float directionThreshold = 0.01f;
 
-            if (direction < 0)
-                actor.transform.rotation = Quaternion.Euler(0, 180, 0);
-            else if (direction > 0)
-                actor.transform.rotation = Quaternion.Euler(0, 0, 0);
+            if (direction > directionThreshold)
+            {
+                // Идём вправо — поворачиваем направо (0 градусов)
+                actor.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else if (direction < -directionThreshold)
+            {
+                // Идём влево — поворачиваем налево (180 градусов)
+                actor.rotation = Quaternion.Euler(0, 180, 0);
+            }
+            // direction ≈ 0 — ничего не меняем, сохраняем текущий поворот
 
             actor.position = Vector2.MoveTowards(actor.position, target.position, speed * Time.deltaTime);
             animator.SetBool(Trigger, true);
