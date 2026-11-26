@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a182b628f8287249aa22f96525435a8, type: 3}
+  m_Name: NataliWoords2
+  m_EditorClassIdentifier: Assembly-CSharp::DialoguesGraph
+  Nodes:
+  - Lines:
+    - line: "\u0423 \u0434\u0432\u0435\u0440\u0438 \u043E\u0436\u0438\u0434\u0430\u043B\u0430
+        \u0437\u043D\u0430\u043A\u043E\u043C\u0430\u044F \u0424\u0440\u043E\u043B\u0430\u043D\u0430
+        - \u041D\u0430\u0442\u0430\u043B\u0438."
+      name: 
+      FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
+      OpponentSprite: {fileID: 7808072162285160972, guid: 40fd049a86fa637449c54a32b86f4442, type: 3}
+      FirstLine: 1
+      IsSpecialFontUsed: 0
+    - line: "\u0424\u0440\u043E\u043B\u0430\u043D, \u0447\u0442\u043E \u0441\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C
+        \u043D\u0430 \u043F\u043B\u0430\u043D\u0442\u0430\u0446\u0438\u0438, \u044D\u0442\u043E
+        \u043F\u0440\u0430\u0432\u0434\u0430?"
+      name: "\u041D\u0430\u0442\u0430\u043B\u0438"
+      FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
+      OpponentSprite: {fileID: 193408813720841868, guid: a7bda6e4214c8044481dc0192eedffb8, type: 3}
+      FirstLine: 0
+      IsSpecialFontUsed: 0
+    - line: "\u041E\u043D \u0431\u044B\u043B \u0441\u0431\u0438\u0442 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u043C
+        \u043E\u0442 \u043D\u0435\u0451, \u043D\u043E \u0432\u0441\u043F\u043E\u043C\u043D\u0438\u043B,
+        \u0447\u0442\u043E \u0435\u0451 \u0441\u044B\u043D \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442
+        \u043D\u0430 \u0434\u0432\u0435\u043D\u0430\u0434\u0446\u0430\u0442\u043E\u0439
+        \u043F\u043B\u0430\u043D\u0442\u0430\u0446\u0438\u0438."
+      name: 
+      FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
+      OpponentSprite: {fileID: 7808072162285160972, guid: 40fd049a86fa637449c54a32b86f4442, type: 3}
+      FirstLine: 0
+      IsSpecialFontUsed: 0
+    - line: "\u0414\u0430, \u043F\u043B\u0430\u043D\u0442\u0430\u0446\u0438\u044F
+        \u0431\u044B\u043B\u0430 \u043F\u0440\u043E\u0434\u0430\u043D\u0430 \u0438\u0437
+        \u0441\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439 \u0432\u044B\u0433\u043E\u0434\u044B."
+      name: "\u0424\u0440\u043E\u043B\u0430\u043D"
+      FrolanSprite: {fileID: -846938088, guid: ecee09db27319e1488f211820f451b0d, type: 3}
+      OpponentSprite: {fileID: 7808072162285160972, guid: 40fd049a86fa637449c54a32b86f4442, type: 3}
+      FirstLine: 0
+      IsSpecialFontUsed: 0
+    - line: "\u041D\u0435 \u0443\u0441\u043F\u0435\u043B \u043E\u043D \u043F\u043E\u0434\u0443\u043C\u0430\u0442\u044C
+        \u043E \u0442\u043E\u043C, \u0447\u0442\u043E \u0438\u043C\u0435\u043D\u043D\u043E
+        \u043E\u043D\u0430 \u0441\u043F\u0440\u0430\u0448\u0438\u0432\u0430\u0435\u0442
+        \u0435\u0433\u043E, \u043A\u0430\u043A \u0443\u0441\u043B\u044B\u0448\u0430\u043B
+        \u043E\u0447\u0435\u043D\u044C \u043D\u0435\u043F\u0440\u0438\u044F\u0442\u043D\u044B\u0435
+        \u0441\u043B\u043E\u0432\u0430."
+      name: 
+      FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
+      OpponentSprite: {fileID: 7808072162285160972, guid: 40fd049a86fa637449c54a32b86f4442, type: 3}
+      FirstLine: 0
+      IsSpecialFontUsed: 0
+    - line: "\u041D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C!
+        \u041D-\u0415-\u0415-\u0415-\u0422!"
+      name: "\u041D\u0430\u0442\u0430\u043B\u0438"
+      FrolanSprite: {fileID: -5991791622712815195, guid: f2a1a9274b2d7bf4bb854c4d7a5c3766, type: 3}
+      OpponentSprite: {fileID: 193408813720841868, guid: a7bda6e4214c8044481dc0192eedffb8, type: 3}
+      FirstLine: 0
+      IsSpecialFontUsed: 0
