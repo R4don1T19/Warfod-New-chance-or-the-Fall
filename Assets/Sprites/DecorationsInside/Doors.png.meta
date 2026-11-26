@@ -269,6 +269,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Doors_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 113
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4abaf7c94cf7334191fb426dd8b2cdd
+      internalID: -988554720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -287,6 +309,7 @@ TextureImporter:
       Doors_1: -4950680412457382125
       Doors_2: -877094092
       Doors_3: 1298759211
+      Doors_4: -988554720
       Doors_WorkCorridor_ B: -715391842
       Doors_WorkCorridor_A: -1717707255
       Doors_WorkCorridor_AS: 1633784968
